@@ -374,7 +374,7 @@
 			"newTeam": {
 				"button": "Nouvelle Equipe",
 				"intro": "Choisissez un modèle :",
-				"zeroTemplate": "Il n'y a aucun modèle disponible. Veuillez contacter vos administrateurs Office 365, ou si vous êtes un administrateur Office 365, <b><a href='#' onclick='microsoftTeams.executeDeepLink(\"%s\");'>crééez un nouveau modèle...</a></b>",
+				"zeroTemplate": "Il n'y a aucun modèle disponible. Veuillez contacter vos administrateurs Office 365, ou si vous êtes un administrateur Office 365, <b><a href='#' onclick='microsoftTeams.executeDeepLink(\"%s\");'>créez un nouveau modèle...</a></b>",
 				"title": "Créez une nouvelle équipe",
 				"notification": {
 					"review": {

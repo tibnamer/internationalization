@@ -98,7 +98,7 @@
   },
   "configurationPage": {
     "title": "SalesTim | Tab Configuration",
-    "headerMessage": "🧙🏼‍ Hey There!",
+    "headerMessage": "🧙🏼‍ Hey there!",
     "termsAgreement": "By clicking the 'Save' button, you agree to our ",
     "terms": "<a href=\"https://www.salestim.com/legal/tos\" target=\"_blank\">Terms of Use</a> and <a href=\"https://www.salestim.com/legal/privacy\" target=\"_blank\">Privacy Policy</a>",
     "touTitle": "Terms of Use",
@@ -113,7 +113,7 @@
   "loggedErrorPage": {
     "title": "SalesTim | Sign-in error",
     "redirect": "Redirecting ⏳ to the sign-in page",
-    "headerMessage": "🧙🏼‍ Hey There!",
+    "headerMessage": "🧙🏼‍ Hey there!",
     "sorry": "😥 I'm so sorry...",
     "button": "🔐 Try to sign-in again"
   },
@@ -186,7 +186,7 @@
   },
   "loggedPage": {
     "title": "SalesTim | Signed-in",
-    "headerMessage": "🧙🏼‍ Hey There!",
+    "headerMessage": "🧙🏼‍ Hey there!",
     "loginConfirmed": "You're 🥇 signed-in!",
     "redirect": "Redirecting ⏳ to SalesTim",
     "redirectButton": "Go to SalesTim"
@@ -340,18 +340,18 @@
         "panel": {
           "opened": "System information"
         },
-        "environment":{
-          "panel":{
+        "environment": {
+          "panel": {
             "opened": "System information \\ Environment"
           }
         },
-        "license":{
-          "panel":{
+        "license": {
+          "panel": {
             "opened": "System information \\ License"
           }
         },
-        "userrights":{
-          "panel":{
+        "userrights": {
+          "panel": {
             "opened": "System information \\ User Rights"
           }
         }
@@ -457,7 +457,7 @@
           "cancel": "Cancel",
           "send": {
             "label": "Send",
-            "checkMessage": "‍🕵🏼‍ Inspecting your request",
+            "checkMessage": "🕵🏼‍ Inspecting your request",
             "waitMessage": "⏳ Sending your request"
           }
         }
