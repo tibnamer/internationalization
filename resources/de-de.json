@@ -1240,5 +1240,15 @@
         "message": "logout.error.catch.message"
       }
     }
+  },
+  "manifest":{
+    "name": {
+      "short": "SalesTim",
+      "full": "SalesTim Governance Automation"
+    },
+    "description": {
+      "short": "SalesTim is an adoption and governance engine for Microsoft Teams.",
+      "full": "SalesTim is an adoption and governance engine for Microsoft Teams, bringing and easy to use service catalog for business users, and security automation features for IT Pro."
+    }
   }
 }

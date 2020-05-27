@@ -297,10 +297,10 @@
 					"closed": "Compte de service (contrôlé)"
 				},
 				"removed": "Compte de service (supprimé)"
-      },
-      "adminConsent": {
-        "check": "Check Admin Consent"
-      },
+			},
+			"adminConsent": {
+				"check": "Check Admin Consent"
+			},
 			"customization": {
 				"panel": {
 					"opened": "Personnalisation"
@@ -309,22 +309,22 @@
 			"crm": {
 				"panel": {
 					"opened": "CRM"
-        },
-        "provider":{
-          "clicked":"CRM Provider"
-        },
-        "salesOrg":{
-          "clicked":"Sales organization"
-        },
-        "accounts":{
-          "clicked":"CRM Accounts"
-        },
-        "opportunities":{
-          "clicked":"CRM Opportunities"
-        },
-        "contacts":{
-          "clicked":"CRM Contacts"
-        }
+				},
+				"provider": {
+					"clicked": "CRM Provider"
+				},
+				"salesOrg": {
+					"clicked": "Sales organization"
+				},
+				"accounts": {
+					"clicked": "CRM Accounts"
+				},
+				"opportunities": {
+					"clicked": "CRM Opportunities"
+				},
+				"contacts": {
+					"clicked": "CRM Contacts"
+				}
 			},
 			"api": {
 				"panel": {
@@ -339,22 +339,22 @@
 			"systemInfo": {
 				"panel": {
 					"opened": "Informations système"
-        },
-        "environment":{
-          "panel":{
-            "opened": "System information \\ Environment"
-          }
-        },
-        "license":{
-          "panel":{
-            "opened": "System information \\ License"
-          }
-        },
-        "userrights":{
-          "panel":{
-            "opened": "System information \\ User Rights"
-          }
-        }
+				},
+				"environment": {
+					"panel": {
+						"opened": "System information \\ Environment"
+					}
+				},
+				"license": {
+					"panel": {
+						"opened": "System information \\ License"
+					}
+				},
+				"userrights": {
+					"panel": {
+						"opened": "System information \\ User Rights"
+					}
+				}
 			},
 			"loggedOut": "Déconnexion..."
 		},
@@ -1114,10 +1114,10 @@
 					"permanentOwnersAsMembersOK": "🥉 Propriétaires permanents ajoutés en tant que membres: %s",
 					"permanentOwnersAsMembersKO": "🥉 Erreur ignorée lors de l'ajout des propriétaires permanents en tant que membres ⚠",
 					"permanentOwnersAsOwnersOK": "🥉 Propriétaires permanents ajoutés en tant que propriétaires: %s",
-          "permanentOwnersAsOwnersKO": "🥉 Erreur ignorée lors de l'ajout des propriétaires permanents en tant que propriétaires ⚠",
-          "privateChannelsOwners": "🔐 Ajout de %s propriétaires à %s canaux privés",
-          "privateChannelsOwnersOK": "🥉 Propriétaire %s ajoutés aux canal privé %s",
-          "privateChannelsOwnersKO": "🥉 Erreur ignorée lors de l'ajout dd propriétaire %s au canal privé %s ⚠"
+					"permanentOwnersAsOwnersKO": "🥉 Erreur ignorée lors de l'ajout des propriétaires permanents en tant que propriétaires ⚠",
+					"privateChannelsOwners": "🔐 Ajout de %s propriétaires à %s canaux privés",
+					"privateChannelsOwnersOK": "🥉 Propriétaire %s ajoutés aux canal privé %s",
+					"privateChannelsOwnersKO": "🥉 Erreur ignorée lors de l'ajout dd propriétaire %s au canal privé %s ⚠"
 				}
 			},
 			"processed": {
@@ -1148,6 +1148,10 @@
 			"success": {
 				"title": "Bravo !",
 				"message": "Votre demande a bien été enregistrée."
+			},
+			"error": {
+				"title": "request.save.error.title",
+				"message": "request.save.error.message"
 			}
 		}
 	},
@@ -1240,5 +1244,18 @@
 				"message": "logout.error.catch.message"
 			}
 		}
+	},
+	"manifest": {
+		"name": {
+			"short": "SalesTim",
+			"full": "SalesTim Gouvernance Automatisée"
+		},
+		"description": {
+			"short": "Automatisation de la Gouvernance Microsoft Teams.",
+			"full": "Solutions métiers pour Microsoft Teams, automatisation de la gouvernance et de l'adoption."
+		}
+	},
+	"storeInstallPage": {
+		"title": "storeInstallPage.title"
 	}
 }
