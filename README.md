@@ -1,9 +1,9 @@
 [![license](https://img.shields.io/badge/License-CC%20BY--SA%204.0-yellow?style=flat)](https://creativecommons.org/licenses/by-sa/4.0/)
-![GitHub repo size](https://img.shields.io/github/repo-size/salestim/template-manifests)
+![GitHub repo size](https://img.shields.io/github/repo-size/salestim/internationalization)
 ![semver](https://img.shields.io/badge/semver-2.0.0-green?style=flat)
-![GitHub last commit](https://img.shields.io/github/last-commit/salestim/template-manifests)
-![GitHub Release Date](https://img.shields.io/github/release-date/salestim/template-manifests)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/salestim/template-manifests)
+![GitHub last commit](https://img.shields.io/github/last-commit/salestim/internationalization)
+![GitHub Release Date](https://img.shields.io/github/release-date/salestim/internationalization)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/salestim/internationalization)
 [![linkedin](https://img.shields.io/badge/follow-@salestim-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/company/salestim/)
 [![twitter](https://img.shields.io/badge/follow-@salestim-blue?logo=twitter&logoColor=white)](https://twitter.com/intent/follow?screen_name=salestimcrm)
 [![store](https://img.shields.io/badge/visit-SalesTim%20Template%20Store-black?logo=microsoft-teams&logoColor=white)](https://store.salestim.com)
@@ -15,7 +15,8 @@
 ## ABSTRACT
 
 This repository contains resource files used to localize the [SalesTim Platform](https://www.salestim.com).  
-Here is the current status of our localization effort:  
+
+Here is the current status of this localization effort:  
 
 [![](https://img.shields.io/static/v1?label=en-us&message=100%&color=success)](https://github.com/SalesTim/internationalization/blob/master/resources/en-us.json)
 [![](https://img.shields.io/static/v1?label=fr-fr&message=100%&color=success)](https://github.com/SalesTim/internationalization/blob/master/resources/fr-fr.json)
@@ -47,10 +48,10 @@ I18n in SalesTim is implemented as resource files.
 Resource files are plain [JSON Files](https://en.wikipedia.org/wiki/JSON), which is an open standard file format that guarantees portability.  
 
 There is a json file for each language/region pair in the `resources` folder:
-```
+```sh
 .
 ├── resources
-│   └── <language>-<region>.json          # language/region pair. For example: ***en-us***.
+│   └── <language>-<region>.json  # language/region pair. For example: "en-us".
 ```
 
 ### Fallbacks
