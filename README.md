@@ -35,6 +35,7 @@ If you want to integrate your contents or applications with the SalesTim Platfor
   - Variables
   - Plurals
 - **[B. IMPLEMENTATION](#b-implementation)**
+- **[C. DOWNLOADS](#c-downloads)**
 - **[X. APPENDICES](#x-appendices)**
   - COMMUNICATING WITH THE TEAM
   - SECURITY POLICY
@@ -108,6 +109,10 @@ SalesTim implements i18n using the following modules:
 N.B: Client-side implementation is customized to implement the following capabilities:
 - [JS Object Notation](https://en.wikipedia.org/wiki/JSON) for keys.
 - Printf notation for strings implemented using the [sprintf-js](https://www.npmjs.com/package/sprintf-js) module.
+
+## C. DOWNLOADS
+
+This repo is publicly exposed thanks to [GitHub Pages](https://pages.github.com/) to this URL: [https://i18n.salestim.io](https://i18n.salestim.io)
 
 ## X. APPENDICES
 
