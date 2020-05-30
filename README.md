@@ -1,3 +1,4 @@
+![classification:PUBLIC](https://img.shields.io/badge/classification-PUBLIC-blue)
 [![license](https://img.shields.io/badge/License-CC%20BY--SA%204.0-yellow?style=flat)](https://creativecommons.org/licenses/by-sa/4.0/)
 ![GitHub repo size](https://img.shields.io/github/repo-size/salestim/internationalization)
 ![semver](https://img.shields.io/badge/semver-2.0.0-green?style=flat)
