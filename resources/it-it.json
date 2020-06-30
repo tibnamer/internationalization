@@ -3,157 +3,157 @@
     "assistant": {
       "title": "Tim",
       "talkToSupport": {
-        "button": "<i class='fa fa-comments-o'></i> Talk to our Support",
-        "defaultMessage": "Hi, I'm facing an issue 😱, please help me! [ Technical Information: %s ]"
+        "button": "<i class='fa fa-comments-o'></i> Richiedi Supporto",
+        "defaultMessage": "Ciao, ho un problema 😱, mi serve aiuto! [ Technical Information: %s ]"
       },
       "backToHome": {
-        "button": "<i class='fa fa-arrow-circle-o-left'></i> Back to Home"
+        "button": "<i class='fa fa-arrow-circle-o-left'></i> Torna alla Homepage"
       },
       "cancel": {
-        "button": "<i class='fa fa-ban'></i> Cancel"
+        "button": "<i class='fa fa-ban'></i> Annulla"
       },
       "audienceTargetingRulesSyntaxChecks": {
         "wait": {
-          "msg1": "I'm running a few tests...",
-          "msg2": "It can take a few seconds...",
-          "msg3": "Please be patient ;-)"
+          "msg1": "Sto facendo dei test di prova...",
+          "msg2": "Potrebbero volerci alcuni secondi...",
+          "msg3": "Per favore, sii paziente ;-)"
         },
         "done": {
-          "msg1": "Done! Look at the results below."
+          "msg1": "Finito! Risultati qui sotto."
         },
         "empty": {
-          "msg1": "Please type your audience targeting rules first!"
+          "msg1": "Inserire prima le regole del Pubblico Target!"
         },
         "results": {
-          "testing": "👓 Testing your audience targeting rules against your own profile",
-          "accessOk": "😃 You would have access to this template!",
-          "accesKo": "😱 You would <b>NOT</b> have access to this template!",
+          "testing": "👓 Regole del Pubblico Target sul tuo proprio profilo",
+          "accessOk": "😃 Avrai accesso a questo template!",
+          "accesKo": "😱 <b>NON</b> avrai accesso a questo template!",
           "details": {
-            "seeErrors": "See 👓 Technical Error Details...",
-            "errorIntro": "🤬 Looks like there is an error in your audience targeting rule...",
-            "errorMessage": "📣 Message: ",
-            "errorStack": "🎯 Details: ",
-            "supportMessage": "Hi, I'm facing an issue 😱 creating an audience targeting rule, please help me!"
+            "seeErrors": "Ecco 👓 i Dettagli dell'Errore...",
+            "errorIntro": "🤬 Sembra che ci sia un errore nella tua regola del Pubblico Target...",
+            "errorMessage": "📣 Messaggio: ",
+            "errorStack": "🎯 Dettagli: ",
+            "supportMessage": "Ciao, ho un problema 😱 a creare la mia regola del Pubblico Target, aiuto!"
           }
         }
       },
       "serviceAccountChecks": {
         "wait": {
-          "msg1": "I'm running a few tests...",
-          "msg2": "It can take a few seconds...",
-          "msg3": "Please be patient ;-)"
+          "msg1": "Sto facendo dei test di prova...",
+          "msg2": "Potrebbero volerci alcuni secondi...",
+          "msg3": "Per favore, sii paziente ;-)"
         },
         "done": {
-          "msg1": "Done! Look at the results below."
+          "msg1": "Finito! Risultati qui sotto."
         },
         "empty": {
-          "msg1": "Please select a service account first!"
+          "msg1": "Selezionare prima l'Account di Servizio!"
         },
         "results": {
           "loadServiceAccountKO": {
-            "title": "Error",
-            "message": "Error loading service account infos"
+            "title": "Errore",
+            "message": "Errore nel caricare le informazioni dell'Account di Servizio"
           },
           "groups": {
-            "checking": "🔎 Checking access to scope <b>Group.ReadWrite.All</b>",
-            "resultOK": "😃 Access to Group.ReadWrite.All <b>OK</b>",
-            "resultKO": "😱 Access to Group.ReadWrite.All <b>KO</b>",
-            "error": "🤬 Error: "
+            "checking": "🔎 Verifica dell'accesso a <b>Group.ReadWrite.All</b>",
+            "resultOK": "😃 Accesso a Group.ReadWrite.All <b>OK</b>",
+            "resultKO": "😱 Accesso a Group.ReadWrite.All <b>KO</b>",
+            "error": "🤬 Errore: "
           },
           "directory": {
-            "checking": "🔎 Checking access to scope <b>Directory.AccessAsUser.All</b>",
-            "resultOK": "😃 Access to Directory.AccessAsUser.All <b>OK</b>",
-            "resultKO": "😱 Access to Directory.AccessAsUser.All <b>KO</b>",
-            "error": "🤬 Error: "
+            "checking": "🔎 Verifica dell'accesso a <b>Directory.AccessAsUser.All</b>",
+            "resultOK": "😃 Accesso a Directory.AccessAsUser.All <b>OK</b>",
+            "resultKO": "😱 Accesso a Directory.AccessAsUser.All <b>KO</b>",
+            "error": "🤬 Errore: "
           }
         }
       },
       "serviceAccountOwnershipChecks": {
         "addServiceAccountAsOwner": {
           "alert": {
-            "linkMessage": "Click here to add your service account 🤖 as an owner",
-            "errorMessage": "Be careful 💥, your service account is not an owner of this team!"
+            "linkMessage": "Cliccare qui per aggiungere il tuo Account di Servizio 🤖 come proprietario",
+            "errorMessage": "Attenzione 💥, il tuo Account di Servizio no è proprietario di questo team!"
           },
           "error": {
-            "msg1": "I'm sorry but I can't update this team ownership.",
+            "msg1": "Scusa, ma non posso aggoirnare questa proprietà del team.",
             "support": {
-              "message": "Hi, I'm facing an issue 😱 updating a group ownership, please help me!"
+              "message": "Ciao, ho un problema 😱 ad aggoirnare la proprietà del gruppo, aiuto!"
             }
           }
         }
       },
       "enableTemplate": {
         "error": {
-          "msg1": "I'm sorry but I can't enable this template.",
-          "msg2": "Please select a team to be cloned first."
+          "msg1": "Scusa ma non posso attivare questo template.",
+          "msg2": "Selezionare prima il team da clonare."
         }
       },
       "unauthorized": {
         "error": {
-          "msg1": "I'm sorry but I cannot let you enter...",
-          "msg2": "Please login with an Office 365 administrator account!"
+          "msg1": "Scusa ma non posso farti entrare...",
+          "msg2": "Per favore, connettiti con un account Amministratore Microsoft 365!"
         }
       }
     }
   },
   "configurationPage": {
-    "title": "SalesTim | Tab Configuration",
-    "headerMessage": "🧙🏼‍ Hey there!",
-    "termsAgreement": "By clicking the 'Save' button, you agree to our ",
-    "terms": "<a href=\"https://www.salestim.com/legal/tos\" target=\"_blank\">Terms of Use</a> and <a href=\"https://www.salestim.com/legal/privacy\" target=\"_blank\">Privacy Policy</a>",
-    "touTitle": "Terms of Use",
-    "privacyTitle": "Privacy Policy",
-    "welcome": "Just a friendly 💖 reminder...",
+    "title": "SalesTim | Configurazione",
+    "headerMessage": "🧙🏼‍ Ciao!",
+    "termsAgreement": "Cliccando su 'Salva', accetti le nostre ",
+    "terms": "<a href=\"https://www.salestim.com/legal/tos\" target=\"_blank\">Condizioni di utilizzo</a> and <a href=\"https://www.salestim.com/legal/privacy\" target=\"_blank\">Privacy Policy</a>",
+    "touTitle": "Condizioni di utilizzo",
+    "privacyTitle": "Informativa sulla privacy",
+    "welcome": "Un semplice promemoria... 💖",
     "touUrl": "https://www.salestim.com/legal/tos",
     "privacyUrl": "https://www.salestim.com/legal/privacy",
     "tabDisplayName": "SalesTim",
-    "tabDisplayNameHelp": "Choose the name of your tab",
-    "emptyHelp": "Tab name cannot be empty!"
+    "tabDisplayNameHelp": "Scegli il nome della scheda",
+    "emptyHelp": "Il nome è obbligatorio!"
   },
   "loggedErrorPage": {
-    "title": "SalesTim | Sign-in error",
-    "redirect": "Redirecting ⏳ to the sign-in page",
-    "headerMessage": "🧙🏼‍ Hey there!",
-    "sorry": "😥 I'm so sorry...",
-    "button": "🔐 Try to sign-in again"
+    "title": "SalesTim | Errore di connessione",
+    "redirect": "Reindirizzamento ⏳ alla pagina di accesso",
+    "headerMessage": "🧙🏼‍ Ciao!",
+    "sorry": "😥 Mi dispiace...",
+    "button": "🔐 Prova a connetterti di nuovo"
   },
   "loginPage": {
-    "title": "SalesTim | Sign-in",
-    "headerMessage": "Welcome to SalesTim",
-    "welcome": "Please sign-in with your Office 365 account.",
-    "termsAgreement": "By clicking \"SIGN-IN\", you agree to our",
+    "title": "SalesTim | Connessione",
+    "headerMessage": "Benvenuto su SalesTim",
+    "welcome": "Per favore, connettiti con il tuo account Microsoft 365.",
+    "termsAgreement": "Cliccando su \"Connettiti\", accetti le nostre",
     "tos": {
       "url": "https://www.salestim.com/legal/tos",
-      "message": "TERMS OF SERVICE"
+      "message": "Condizioni di utilizzo"
     },
     "privacy": {
       "url": "https://www.salestim.com/legal/privacy",
-      "message": "PRIVACY POLICY"
+      "message": "Condizioni di utilizzo"
     },
     "signin": {
-      "button": "🔐 SIGN-IN",
-      "wait": "⏳ Signing-in..."
+      "button": "🔐 Connettiti",
+      "wait": "⏳ Connessione in corso..."
     },
-    "welcomebackLabel": "Welcome back!",
-    "hintLabel": "💡 Your account should be",
+    "welcomebackLabel": "Bentornato/a!",
+    "hintLabel": "💡 Il tuo account dovrebbe essere",
     "error": {
-      "microsoftAccount": "You cannot sign-in with a personal Microsoft account.",
+      "microsoftAccount": "Non puoi connetterti con account Microsoft personale.",
       "prefix": "😥 ",
-      "createUser": "An error occured while creating your user profile",
-      "createCustomer": "An error occured while creating your customer profile",
-      "adminConsent": "Admin consent required. Please contact your administrator.",
-      "unexpected": "Unexpected error",
-      "adminRestricted": "Sorry, this page is restricted to Office 365 administrators",
-      "salestimRestricted": "Sorry, this page is restricted to SalesTim administrators",
-      "findUser": "I'm sorry but I cannot let you enter as you don't have a valid email address :-( You need a Microsoft Exchange licence and an active mailbox to access SalesTim.",
+      "createUser": "Errore nella creazione del tuo profilo",
+      "createCustomer": "Errore nella creazione del tuo profilo cliente",
+      "adminConsent": "Consenso dell'amministratore necessario. Contatta il tuo amministratore.",
+      "unexpected": "Errore imprevisto",
+      "adminRestricted": "Mi dispiace, questa pagina è riservata agli amministratori Microsoft 365",
+      "salestimRestricted": "Mi dispiace, questa pagina è riservata agli amministratori Salestim",
+      "findUser": "Scusa ma non posso farti entrare perchè non hai un indirizzo email valido :-( Serve una licenza Microsoft Exchange e una mailbox attiva per accedere a SalesTim.",
       "findCustomer": "loginPage.error.findCustomer"
     },
     "menu": {
       "title": " ",
-      "signin": "Sign-in",
-      "about": "About",
+      "signin": "Connettiti",
+      "about": "Scopri di più",
       "copyright": "(c) Copyright 2020 SalesTim, all rights reserved.",
-      "services": "How we help?",
+      "services": "Come forniamo aiuto?",
       "helpCenter": {
         "url": "https://help.salestim.com",
         "label": "Help Center"
@@ -162,10 +162,10 @@
         "url": "https://status.salestim.com",
         "label": "Status"
       },
-      "close": "Close"
+      "close": "Chiudere"
     },
-    "learnMore": "Learn more...",
-    "scrollDown": "Scroll down",
+    "learnMore": "Saperne di più...",
+    "scrollDown": "Vedi più contenuto",
     "linkedin": {
       "url": "https://www.linkedin.com/company/salestim",
       "title": "LinkedIn"
@@ -175,9 +175,9 @@
       "title": "Twitter"
     },
     "about": {
-      "subHead": "Hey there",
-      "head": "What is SalesTim?",
-      "content": "SalesTim is..."
+      "subHead": "Ciao",
+      "head": "Cosa è SalesTim?",
+      "content": "SalesTim è..."
     },
     "web": {
       "url": "https://www.salestim.com",
@@ -185,11 +185,11 @@
     }
   },
   "loggedPage": {
-    "title": "SalesTim | Signed-in",
-    "headerMessage": "🧙🏼‍ Hey there!",
-    "loginConfirmed": "You're 🥇 signed-in!",
-    "redirect": "Redirecting ⏳ to SalesTim",
-    "redirectButton": "Go to SalesTim"
+    "title": "SalesTim | Connesso",
+    "headerMessage": "🧙🏼‍ Ciao!",
+    "loginConfirmed": "Sei 🥇 connesso!",
+    "redirect": "Reindirizzamento ⏳ verso Salestim",
+    "redirectButton": "Vai su Salestim"
   },
   "appPage": {
     "title": "SalesTim",
@@ -205,98 +205,98 @@
       },
       "web": {
         "link": "https://www.salestim.com",
-        "label": "About"
+        "label": "Scopri di più"
       }
     }
   },
   "clickEvents": {
     "tim": {
       "closed": " ",
-      "initiatedTalkToSupport": "Talking to Support",
-      "initiatedBackToHome": "Back to home...",
-      "initiatedLgoutUnauthorized": "Signing-out...",
+      "initiatedTalkToSupport": "Richiedi Assistenza",
+      "initiatedBackToHome": "Torna alla homepage...",
+      "initiatedLgoutUnauthorized": "Disconnessione...",
       "canceled": " "
     },
     "teamTabConfig": {
-      "saved": "Saving..."
+      "saved": "Salvataggio in corso..."
     },
     "login": {
-      "started": "Signing-in..."
+      "started": "Connessione..."
     },
     "home": {
       "myRequests": {
-        "opened": "My requests",
+        "opened": "Richieste",
         "closed": "Home"
       },
       "newTeam": {
-        "opened": "New Team",
+        "opened": "Nuovo Team",
         "canceled": "Home",
         "saved": "Home"
       },
-      "searched": "Search",
+      "searched": "Cerca",
       "team": {
-        "opened": "Opening...",
-        "initiateTalkToOwners": "Starting conversation..."
+        "opened": "Avvio...",
+        "initiateTalkToOwners": "Inizio della conversazione..."
       },
-      "loggedOut": "Sign-out..."
+      "loggedOut": "Disconnessione..."
     },
     "catalog": {
       "templates": {
         "newModal": {
-          "opened": "New Template",
-          "sourceTeamSelected": "New Template"
+          "opened": "Nuovo Template",
+          "sourceTeamSelected": "Nuovo Template"
         },
         "editForm": {
-          "opened": "Template edition",
-          "saved": "Template saved",
-          "closed": "Catalog"
+          "opened": "Modifica Template",
+          "saved": "Template salvato",
+          "closed": "Catalogo"
         },
         "filtered": {
-          "disabled": "Catalog (Disabled templated)",
-          "enabled": "Catalog (Enabled templates)",
-          "all": "Catalog"
+          "disabled": "Catalogo (Templates Disattivi)",
+          "enabled": "Catalog (Templates Attivi)",
+          "all": "Catalogo"
         },
         "status": {
-          "disabled": "Catalog",
-          "enabled": "Catalog"
+          "disabled": "Catalogo",
+          "enabled": "Catalogo"
         },
         "tabs": {
           "infos": {
-            "opened": "Informations sur le modèle"
+            "opened": "Informazioni sul Template"
           },
           "naming": {
-            "opened": "Informations sur le modèle"
+            "opened": "Informazioni sul Template"
           },
           "approval": {
-            "opened": "Informations sur le modèle"
+            "opened": "Informazioni sul Template"
           },
           "targeting": {
-            "opened": "Informations sur le modèle"
+            "opened": "Informazioni sul Template"
           },
           "teamSecurity": {
-            "opened": "Informations sur le modèle"
+            "opened": "Informazioni sul Template"
           },
           "adoption": {
-            "opened": "Informations sur le modèle"
+            "opened": "Informazioni sul Template"
           },
           "api": {
-            "opened": "Informations sur le modèle"
+            "opened": "Informazioni sul Template"
           }
         }
       },
-      "loggedOut": "Signing-out..."
+      "loggedOut": "Disconnessione..."
     },
     "settings": {
       "serviceAccount": {
         "panel": {
-          "opened": "Service account"
+          "opened": "Account di servizio"
         },
-        "updated": "Service account (update)",
+        "updated": "Account di servizio (aggiornamento)",
         "check": {
-          "opened": "Checking service account prerequisites",
-          "closed": "Service account (checked)"
+          "opened": "Controllo dei prerequisiti del tuo Account di servizio",
+          "closed": "Account di servizio (verificato)"
         },
-        "removed": "Service account (removed)"
+        "removed": "Account di servizio (rimosso)"
       },
       "adminConsent": {
         "check": "Check Admin Consent"
