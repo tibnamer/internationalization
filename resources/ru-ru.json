@@ -1128,7 +1128,7 @@
 				"label": "🚩 Error",
 				"message": {
 					"standard": "An error occured while processing the request",
-					"ERROR_CONFIGURE_TAB": "🚩 Error configuring tab '%s' with id '%s'",
+					"ERROR_CONFIGURE_TAB": "🚩 Error configuring tab: '%s' URL: '%s'",
 					"ERROR_RETRIEVE_REQUESTER": "Error retrieving requester user object",
 					"ERROR_RETRIEVE_CUSTOMER": "Error retrieving requester customer object",
 					"ERROR_RETRIEVE_TEMPLATE": "Error retrieving template from catalog",

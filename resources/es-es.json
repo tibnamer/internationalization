@@ -1128,7 +1128,7 @@
 				"label": "🚩 Error",
 				"message": {
 					"standard": "Se produjo un error al procesar la solicitud",
-					"ERROR_CONFIGURE_TAB": "🚩 Error al configurar la pestaña '%s' con id '%s'",
+					"ERROR_CONFIGURE_TAB": "🚩 Error al configurar la pestaña: '%s' URL: '%s'",
 					"ERROR_RETRIEVE_REQUESTER": "Error al recuperar el objeto de usuario solicitante",
 					"ERROR_RETRIEVE_CUSTOMER": "Error al recuperar el objeto del cliente solicitante",
 					"ERROR_RETRIEVE_TEMPLATE": "Error al recuperar la plantilla del catálogo",
