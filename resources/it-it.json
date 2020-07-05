@@ -4,32 +4,32 @@
       "title": "Tim",
       "talkToSupport": {
         "button": "<i class='fa fa-comments-o'></i> Talk to our Support",
-        "defaultMessage": "Hi, I'm facing an issue 😱, please help me! [ Technical Information: %s ]"
+        "defaultMessage": "Ciao, sto avendo un problema 😱, aiuto! [ Technical Information: %s ]"
       },
       "backToHome": {
-        "button": "<i class='fa fa-arrow-circle-o-left'></i> Back to Home"
+        "button": "<i class='fa fa-arrow-circle-o-left'></i> Torna alla homepage"
       },
       "cancel": {
-        "button": "<i class='fa fa-ban'></i> Cancel"
+        "button": "<i class='fa fa-ban'></i> Annulla"
       },
       "audienceTargetingRulesSyntaxChecks": {
         "wait": {
-          "msg1": "I'm running a few tests...",
-          "msg2": "It can take a few seconds...",
-          "msg3": "Please be patient ;-)"
+          "msg1": "Sto eseguendo dei test...",
+          "msg2": "Potrebbero volerci alcuni secondi...",
+          "msg3": "Sii paziente ;-)"
         },
         "done": {
-          "msg1": "Done! Look at the results below."
+          "msg1": "Fatto! Ecco i risultati qui sotto."
         },
         "empty": {
-          "msg1": "Please type your audience targeting rules first!"
+          "msg1": "Inserisci la tua regola per il Pubblico Target!"
         },
         "results": {
           "testing": "👓 Testing your audience targeting rules against your own profile",
-          "accessOk": "😃 You would have access to this template!",
-          "accesKo": "😱 You would <b>NOT</b> have access to this template!",
+          "accessOk": "😃 Avrai accesso a questo template!",
+          "accesKo": "😱 Tu <b>NON</b> avrai accesso a questo template!",
           "details": {
-            "seeErrors": "See 👓 Technical Error Details...",
+            "seeErrors": "Vedi 👓 dettagli degli errori tecnici...",
             "errorIntro": "🤬 Looks like there is an error in your audience targeting rule...",
             "errorMessage": "📣 Message: ",
             "errorStack": "🎯 Details: ",
