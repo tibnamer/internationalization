@@ -21,9 +21,10 @@ Here is the current status of this localization effort:
 
 [![](https://img.shields.io/static/v1?label=en-us&message=100%&color=success)](https://github.com/SalesTim/internationalization/blob/master/resources/en-us.json)
 [![](https://img.shields.io/static/v1?label=fr-fr&message=100%&color=success)](https://github.com/SalesTim/internationalization/blob/master/resources/fr-fr.json)
-[![](https://img.shields.io/static/v1?label=es-es&message=100%&color=important)](https://github.com/SalesTim/internationalization/blob/master/resources/es-es.json)
+[![](https://img.shields.io/static/v1?label=es-es&message=100%%20beta&color=important)](https://github.com/SalesTim/internationalization/blob/master/resources/es-es.json)
+[![](https://img.shields.io/static/v1?label=de-de&message=100%%20beta&color=important)](https://github.com/SalesTim/internationalization/blob/master/resources/it-it.json)
 [![](https://img.shields.io/static/v1?label=de-de&message=0%&color=informational)](https://github.com/SalesTim/internationalization/blob/master/resources/de-de.json)
-[![](https://img.shields.io/static/v1?label=de-de&message=0%&color=informational)](https://github.com/SalesTim/internationalization/blob/master/resources/it-it.json)
+[![](https://img.shields.io/static/v1?label=ru-ru&message=0%&color=informational)](https://github.com/SalesTim/internationalization/blob/master/resources/de-de.json)
 
 To learn more about SalesTim templates capabilities, including how to create templates visually from our UI, please refer to our ***[Help Center](https://help.salestim.com/)***.
 
