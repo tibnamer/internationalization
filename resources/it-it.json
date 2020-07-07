@@ -112,7 +112,7 @@
   },
   "loggedErrorPage": {
     "title": "SalesTim | Errore di connessione",
-    "redirect": "Reindirizzamento ⏳ alla pagina di connessione"
+    "redirect": "Reindirizzamento ⏳ alla pagina di connessione",
     "headerMessage": "🧙🏼‍ Ciao!",
     "sorry": "😥 Mi dispiace...",
     "button": "🔐 Prova di nuovo a connetterti"
@@ -853,7 +853,7 @@
           "placeholder": "Cerca un template"
         },
         "picks": {
-          "previous": "⏪ Precededente,
+          "previous": "⏪ Precededente",
           "next": "Seguente ⏩"
         },
         "lastPublished": "🕙 Ultima pubblicazione",
@@ -917,7 +917,7 @@
         "idLabel": "Account di servizio: ",
         "input": {
           "placeholder": "Usa il tasto 'Aggiorna' per selezionare il tuo account di servizio",
-          "loading": "⏳ LCaricamento dell'account di servizio,
+          "loading": "⏳ LCaricamento dell'account di servizio",
           "error": {
             "title": "Errore",
             "message": "Errore nel caricamento del tuo account di servizio"
