@@ -1093,7 +1093,7 @@
 				"label": "🕙 Postprocesamiento",
 				"message": "3️⃣ Solicitud de posprocesamiento %s",
 				"steps": {
-					"requesterMembership": "🔐 Agregando solicitante '% s (% s)' como miembro / propietario",
+					"requesterMembership": "🔐 Agregando solicitante '%s (%s)' como miembro / propietario",
 					"requesterAsMemberOK": "🥇 Solicitante agregado como miembro: %s",
 					"requesterAsMemberKO": "🥇 Error administrado / ignorado al agregar solicitante como miembro ⚠",
 					"requesterAsOwnerOK": "🥇 Solicitante agregado como propietario: %s",
