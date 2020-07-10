@@ -1128,7 +1128,7 @@
 				"label": "🚩 Erreur",
 				"message": {
 					"standard": "Une erreur est survenur lors du traitement de la demande",
-					"ERROR_CONFIGURE_TAB": "🚩 Erreur lors de la configuration de l'onglet: '%s' URL: '%s'",
+					"ERROR_CONFIGURE_TAB": "🚩 Erreur lors de la configuration de l'onglet %s. 🌐: %s",
 					"ERROR_RETRIEVE_REQUESTER": "Impossible de retrouver les informations du demandeur",
 					"ERROR_RETRIEVE_CUSTOMER": "Impossible de retrouver les informations de l'organization du demandeur",
 					"ERROR_RETRIEVE_TEMPLATE": "Impossible de retrouver le template dans le catalogue",

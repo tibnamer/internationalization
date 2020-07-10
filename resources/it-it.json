@@ -1128,7 +1128,7 @@
         "label": "🚩 Errore",
         "message": {
           "standard": "Si è verificato un errore durante l'elaborazione della richiesta",
-          "ERROR_CONFIGURE_TAB": "🚩 Errore nella configurazione della scheda: '%s' URL: '%s'",
+          "ERROR_CONFIGURE_TAB": "🚩 Errore nella configurazione della scheda %s. 🌐: %s",
           "ERROR_RETRIEVE_REQUESTER": "Errore nel recupero dell'oggetto dell'utente richiedente",
           "ERROR_RETRIEVE_CUSTOMER": "Errore nel recupero dell'oggetto del cliente richiedente",
           "ERROR_RETRIEVE_TEMPLATE": "Errore nel recupero del template dal catalogo",
