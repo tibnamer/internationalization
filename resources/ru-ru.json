@@ -27,7 +27,7 @@
 				"results": {
 					"testing": "👓 Testing your audience targeting rules against your own profile",
 					"accessOk": "😃 You would have access to this template!",
-					"accesKo": "😱 You would <b>NOT</b> have access to this template!",
+					"accessKo": "😱 You would <b>NOT</b> have access to this template!",
 					"details": {
 						"seeErrors": "See 👓 Technical Error Details...",
 						"errorIntro": "🤬 Looks like there is an error in your audience targeting rule...",
