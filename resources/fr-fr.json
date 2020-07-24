@@ -1117,7 +1117,7 @@
 					"permanentOwnersAsOwnersKO": "🥉 Erreur ignorée lors de l'ajout des propriétaires permanents en tant que propriétaires ⚠",
 					"privateChannelsOwners": "🔐 Ajout de %s propriétaires à %s canaux privés",
 					"privateChannelsOwnersOK": "🥉 Propriétaire %s ajoutés aux canal privé %s",
-					"privateChannelsOwnersKO": "🥉 Erreur ignorée lors de l'ajout dd propriétaire %s au canal privé %s ⚠"
+					"privateChannelsOwnersKO": "🥉 Erreur ignorée lors de l'ajout du propriétaire %s au canal privé %s ⚠"
 				}
 			},
 			"processed": {
