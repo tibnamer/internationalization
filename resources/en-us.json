@@ -390,8 +390,8 @@
 						"label": "Approval: ",
 						"%s enabled": {
 							"zero": "Enabled with <b>no approvers</b> defined",
-							"one": "<b>Enabled</b> for <b>1</b> approver",
-							"many": "<b>Enabled</b> for <b>%s</b> approvers"
+							"one": "<b>Enabled</b> with <b>1</b> approver",
+							"many": "<b>Enabled</b> with <b>%s</b> approvers"
 						},
 						"disabled": "<b>Disabled</b>"
 					},
@@ -597,8 +597,8 @@
 					"label": "Approval: ",
 					"%s enabled": {
 						"zero": "Enabled with <b>no approvers</b> defined",
-						"one": "<b>Enabled</b> for <b>1</b> approver",
-						"many": "<b>Enabled</b> for <b>%s</b> approvers"
+						"one": "<b>Enabled</b> with <b>1</b> approver",
+						"many": "<b>Enabled</b> with <b>%s</b> approvers"
 					},
 					"disabled": "<b>Disabled</b>"
 				},
@@ -1257,5 +1257,39 @@
 	},
 	"storeInstallPage": {
 		"title": "storeInstallPage.title"
+	},
+	"approval": {
+		"notification": {
+			"subject": "<%= request.request.requester.name %> sent you an approval request"
+		},
+		"card": {
+			"requester": {
+				"jobTitle": "Job Title",
+				"department": "Department"
+			},
+			"request": {
+				"template": "Template",
+				"teamName": "Team Name",
+				"teamDescription": "Description",
+				"welcomeMessage": "Welcome Message",
+				"teamNamePlaceholder": "Enter team name here",
+				"teamDescriptionPlaceholder": "Enter team description here",
+				"welcomeMessagePlaceholder": "Enter a welcome message here",
+				"members": "Members",
+				"owners": "Owners",
+				"noMembers": "None",
+				"noOwners": "None"
+			},
+			"edit": {
+				"header": "Edit request before approval"
+			},
+			"actions": {
+				"approve": "Approve",
+				"approveMessage": "The request was approved",
+				"reject": "Reject",
+				"rejectMessage": "The request was rejected",
+				"comment": "Add a comment for your rejection"
+			}
+		}
 	}
 }
