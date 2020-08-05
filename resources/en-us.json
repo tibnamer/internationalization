@@ -1259,8 +1259,28 @@
 		"title": "storeInstallPage.title"
 	},
 	"approval": {
-		"notification": {
-			"subject": "<%= request.request.requester.name %> sent you an approval request"
+		"login": {
+			"title": "Request Approval",
+			"meta": "",
+			"message": "Please sign-in to",
+			"button": {
+				"normal": "SIGN-IN",
+				"waiting": "⏳ SIGNING-IN"
+			}
+		},
+		"notifications": {
+			"approvers": {
+				"subject": "<%= request.request.requester.name %> sent you an approval request"
+			},
+			"requester": {
+				"subject": "Your request \"<%= request.team.name %>\" has been submitted for approval"
+			},
+			"approved": {
+				"subject": "Your request \"<%= request.team.name %>\" has been approved"
+			},
+			"rejected": {
+				"subject": "Your request \"<%= request.team.name %>\" has been rejected"
+			}
 		},
 		"card": {
 			"requester": {
@@ -1288,7 +1308,9 @@
 				"approveMessage": "The request was approved",
 				"reject": "Reject",
 				"rejectMessage": "The request was rejected",
-				"comment": "Add a comment for your rejection"
+				"comment": "Add a comment for your rejection",
+				"open": "Open Request",
+				"infos": "Request"
 			}
 		}
 	}

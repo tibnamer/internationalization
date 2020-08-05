@@ -1055,7 +1055,7 @@
 					"namingConventionKO": "Erreur dans les conventions de nommage : %s",
 					"checkFinalValuesOK": "Vérification des paramètres : %s",
 					"checkFinalValuesKO": "Erreur lors de la vérification des paramètres",
-					"setRequestLocaleOK": "Langue de la requête définie à '%s': %s",
+					"setRequestLocaleOK": "Langue de la requête défini à '%s': %s",
 					"setRequestLocaleKO": "Erreur lors de la définition de la langue de la requête : %s"
 				}
 			},
