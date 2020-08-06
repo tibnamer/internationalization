@@ -557,7 +557,7 @@
 				},
 				"card": {
 					"requestDate": "Created:",
-					"template": "template:",
+					"template": "Template:",
 					"progress": "Stage:",
 					"lastOperation": "Last operation:",
 					"members": {
@@ -1298,19 +1298,26 @@
 				"members": "Members",
 				"owners": "Owners",
 				"noMembers": "None",
-				"noOwners": "None"
-			},
-			"edit": {
-				"header": "Edit request before approval"
+				"noOwners": "None",
+				"approvers": "Approvers",
+				"rejection": {
+					"from": "Message from"
+				}
 			},
 			"actions": {
 				"approve": "Approve",
 				"approveMessage": "The request was approved",
+				"edit": "Edit request before approval",
 				"reject": "Reject",
 				"rejectMessage": "The request was rejected",
 				"comment": "Add a comment for your rejection",
 				"open": "Open Request",
-				"infos": "Request"
+				"infos": "Request",
+				"chat": {
+					"button": "Talk to approvers",
+					"topic": "Request: ",
+					"message": "Hi, I have a question about my request "
+				}
 			}
 		}
 	}
