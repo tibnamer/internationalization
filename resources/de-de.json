@@ -739,6 +739,7 @@
                 "help": "By enabling you'll be able to target the audience for this template, based on Office 365 user profile information"
               },
               "rules": {
+                "placeholder": "Enter audience targeting rules (use @ or # to include dynamic content)",
                 "checkSyntax": {
                   "button": "Check Syntax"
                 }

@@ -739,6 +739,7 @@
 								"help": "Al habilitarlo, podrás dirigirte a la audiencia para esta plantilla, según la información del perfil de usuario de Office 365"
 							},
 							"rules": {
+								"placeholder": "Enter audience targeting rules (use @ or # to include dynamic content)",
 								"checkSyntax": {
 									"button": "Verificar Sintaxis"
 								}

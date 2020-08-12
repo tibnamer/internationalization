@@ -739,6 +739,7 @@
 								"title": "🎯 Ciblage d'Audiences"
 							},
 							"rules": {
+								"placeholder": "Saisissez vos règles de ciblage (utilisez @ ou # pour inclure du contenu dynamique)",
 								"checkSyntax": {
 									"button": "Vérifier la Syntaxe"
 								}

@@ -739,6 +739,7 @@
                 "help": "Attivando il targeting, potrai decidere a chi sarà destinato questo template in funzione delle informazioni presenti sul profilo Microsoft 365"
               },
               "rules": {
+                "placeholder": "Enter audience targeting rules (use @ or # to include dynamic content)",
                 "checkSyntax": {
                   "button": "Verifica la sintassi"
                 }
