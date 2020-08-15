@@ -1129,7 +1129,7 @@
         "label": "🚩 Error",
         "message": {
           "standard": "An error occured while processing the request",
-					"ERROR_CONFIGURE_TAB": "🚩 Error configuring tab %s. 🌐: %s",
+          "ERROR_CONFIGURE_TAB": "🚩 Error configuring tab %s. 🌐: %s",
           "ERROR_RETRIEVE_REQUESTER": "Error retrieving requester user object",
           "ERROR_RETRIEVE_CUSTOMER": "Error retrieving requester customer object",
           "ERROR_RETRIEVE_TEMPLATE": "Error retrieving template from catalog",
@@ -1149,6 +1149,10 @@
       "success": {
         "title": "Success!",
         "message": "Your request has been saved."
+      },
+      "error": {
+        "title": "request.save.error.title",
+        "message": "request.save.error.message"
       }
     }
   },
@@ -1242,7 +1246,7 @@
       }
     }
   },
-  "manifest":{
+  "manifest": {
     "name": {
       "short": "SalesTim",
       "full": "SalesTim Governance Automation"
@@ -1250,6 +1254,142 @@
     "description": {
       "short": "SalesTim is an adoption and governance engine for Microsoft Teams.",
       "full": "SalesTim is an adoption and governance engine for Microsoft Teams, bringing and easy to use service catalog for business users, and security automation features for IT Pro."
+    }
+  },
+  "storeInstallPage": {
+    "title": "storeInstallPage.title"
+  },
+  "approval": {
+    "login": {
+      "title": "Request Approval",
+      "meta": "",
+      "message": "Please sign-in to",
+      "button": {
+        "normal": "SIGN-IN",
+        "waiting": "⏳ SIGNING-IN"
+      }
+    },
+    "notifications": {
+      "approvers": {
+        "subject": "<%= request.request.requester.name %> sent you an approval request"
+      },
+      "requester": {
+        "subject": "Your request \"<%= request.team.name %>\" has been submitted for approval"
+      },
+      "approved": {
+        "subject": "Your request \"<%= request.team.name %>\" has been approved"
+      },
+      "rejected": {
+        "subject": "Your request \"<%= request.team.name %>\" has been rejected"
+      }
+    },
+    "card": {
+      "requester": {
+        "jobTitle": "Job Title",
+        "department": "Department"
+      },
+      "request": {
+        "template": "Template",
+        "requester": "Requester",
+        "approver": "Approver",
+        "approvalDate": "Approved on",
+        "rejectionDate": "Rejected on",
+        "rejectionMessage": "Message",
+        "teamName": "Team Name",
+        "teamDescription": "Description",
+        "welcomeMessage": "Welcome Message",
+        "teamNamePlaceholder": "Enter team name here",
+        "teamDescriptionPlaceholder": "Enter team description here",
+        "welcomeMessagePlaceholder": "Enter a welcome message here",
+        "members": "Members",
+        "owners": "Owners",
+        "noMembers": "None",
+        "noOwners": "None",
+        "approvers": "Approvers",
+        "rejection": {
+          "from": "Message from"
+        }
+      },
+      "actions": {
+        "approve": "Approve",
+        "approveMessage": "✅ The request was approved",
+        "edit": "Edit request before approval",
+        "reject": "Reject",
+        "rejectMessage": "⛔ The request was rejected",
+        "comment": "Add a comment for your rejection",
+        "open": "Open Request",
+        "infos": "Request",
+        "chat": {
+          "button": "Talk to approvers",
+          "topic": "Request: ",
+          "message": "Hi, I have a question about my request "
+        }
+      }
+    },
+    "email": {
+      "footer": "For security reasons, this message is only available from Outlook (Desktop, Web and Mobile). If this card doesn't appear, <a target='_blank' href='https://store.office.com/app.aspx?assetid=WA104381686&productgroup=Outlook&mktvid=PN102957641&mktcmpid=sendmailsample'/>install the Actionable Messages Debugger Outlook add-in</a> to debug the issue.",
+      "copyright": "(c) Copyright 2020 SalesTim, all rights reserved."
+    }
+  },
+  "tags": {
+    "user": {
+      "profile": {
+        "id": "User > ID (Unique Azure AD identifier as a GUID)",
+        "city": "User > City",
+        "companyName": "User > Company Name",
+        "country": "User > Country",
+        "department": "User > Department",
+        "displayName": "User > Display Name. e.g: 'Alice Hawking'",
+        "employeeId": "User > Employee ID",
+        "givenName": "User > Given Name",
+        "jobTitle": "User > Job Title",
+        "mail": "User > Mail",
+        "mailNickname": "User > Mail Nickname. e.g 'alice.hawking'",
+        "mobilePhone": "User > Mobile Phone",
+        "officeLocation": "User > Office Location",
+        "postalCode": "User > Postal Code",
+        "preferredLanguage": "User > Preferred Language. e.g 'en-US'",
+        "state": "User > State",
+        "streetAddress": "User > Street Address",
+        "surname": "User > Surname",
+        "usageLocation": "User > Usage Location. e.g 'US'",
+        "userPrincipalName": "User > User Principal Name.",
+        "onPremisesExtensionAttributes": {
+          "extensionAttribute1": "User > On-premises extension attribute 1",
+          "extensionAttribute2": "User > On-premises extension attribute 2",
+          "extensionAttribute3": "User > On-premises extension attribute 3",
+          "extensionAttribute4": "User > On-premises extension attribute 4",
+          "extensionAttribute5": "User > On-premises extension attribute 5",
+          "extensionAttribute6": "User > On-premises extension attribute 6",
+          "extensionAttribute7": "User > On-premises extension attribute 7",
+          "extensionAttribute8": "User > On-premises extension attribute 8",
+          "extensionAttribute9": "User > On-premises extension attribute 9",
+          "extensionAttribute10": "User > On-premises extension attribute 10",
+          "extensionAttribute11": "User > On-premises extension attribute 11",
+          "extensionAttribute12": "User > On-premises extension attribute 12",
+          "extensionAttribute13": "User > On-premises extension attribute 13",
+          "extensionAttribute14": "User > On-premises extension attribute 14",
+          "extensionAttribute15": "User > On-premises extension attribute 15"
+        }
+      },
+      "groups": {
+        "direct": "Groups > All the groups that the user is a DIRECT member of.",
+        "transitive": "Groups > All the groups that the user is a member of including by transitivity."
+      }
+    },
+    "request": {
+      "team": {
+        "name": "Request > Team Name",
+        "description": "Request > Team Description",
+        "welcomeMessage": "Request > Welcome Message"
+      },
+      "template": {
+        "name": "Request > Template Name"
+      }
+    },
+    "uniqueId": {
+      "fromDate": "Unique ID > A unique ID generated from the current date. e.g '1597065805024'",
+      "uuid": "Unique ID > A unique ID randomly generated as a guid. e.g: '42e3c9b3-6040-4a73-8a43-50eaa01572c0'"
     }
   }
 }

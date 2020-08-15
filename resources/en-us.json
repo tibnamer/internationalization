@@ -1290,6 +1290,11 @@
 			},
 			"request": {
 				"template": "Template",
+				"requester": "Requester",
+				"approver":"Approver",
+				"approvalDate":"Approved on",
+				"rejectionDate":"Rejected on",
+				"rejectionMessage":"Message",
 				"teamName": "Team Name",
 				"teamDescription": "Description",
 				"welcomeMessage": "Welcome Message",
@@ -1307,10 +1312,10 @@
 			},
 			"actions": {
 				"approve": "Approve",
-				"approveMessage": "The request was approved",
+				"approveMessage": "✅ The request was approved",
 				"edit": "Edit request before approval",
 				"reject": "Reject",
-				"rejectMessage": "The request was rejected",
+				"rejectMessage": "⛔ The request was rejected",
 				"comment": "Add a comment for your rejection",
 				"open": "Open Request",
 				"infos": "Request",
@@ -1320,6 +1325,10 @@
 					"message": "Hi, I have a question about my request "
 				}
 			}
+		},
+		"email": {
+			"footer": "For security reasons, this message is only available from Outlook (Desktop, Web and Mobile). If this card doesn't appear, <a target='_blank' href='https://store.office.com/app.aspx?assetid=WA104381686&productgroup=Outlook&mktvid=PN102957641&mktcmpid=sendmailsample'/>install the Actionable Messages Debugger Outlook add-in</a> to debug the issue.",
+			"copyright": "(c) Copyright 2020 SalesTim, all rights reserved."
 		}
 	},
 	"tags": {
@@ -1369,9 +1378,14 @@
 			}
 		},
 		"request": {
-			"name": "Request > Team Name",
-			"description": "Request > Team Description",
-			"welcomeMessage": "Request > Welcome Message"
+			"team": {
+				"name": "Request > Team Name",
+				"description": "Request > Team Description",
+				"welcomeMessage": "Request > Welcome Message"
+			},
+			"template": {
+				"name": "Request > Template Name"
+			}
 		},
 		"uniqueId": {
 			"fromDate": "Unique ID > A unique ID generated from the current date. e.g '1597065805024'",
