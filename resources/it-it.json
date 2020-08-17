@@ -733,6 +733,7 @@
             },
             "targeting": {
               "title": "Targeting",
+							"disabled": "⚠ Approval is currently disabled as it's not yet authorized by an administrator. The approval workflow will be ignored as long as it has not been configured.",
               "enable": {
                 "title": "🎯 Targeting",
                 "label": "Attiva il Targeting",
@@ -911,6 +912,31 @@
       "security": {
         "title": "<i class='fa fa-shield'></i> Sicurezza"
       },
+      "approval": {
+				"tab": {
+					"title": "<i class='fa fa-check-circle-o'></i> Approval"
+				},
+				"actionableMessage": {
+					"navbar": {
+						"title": "<i class='fa fa-envelope-o'></i> Actionable Message"
+					},
+					"save": {
+						"button": "<i class='fa fa-floppy-o'></i> Save",
+						"waiting": "⏳ Saving..."
+					},
+					"help": "Actionable message help. See <b><i><a target='_blank' href='https://developers.salestim.com/nocode/approval.html'>Team creation approval workflow</a></i></b> from our Tech Hub.",
+					"providerMode": {
+						"label": "Enable organization-level provider",
+						"help": "By selecting this option, the approval notification emails will be sent by the service account itself, using its own email address.",
+						"providerId": {
+							"input": {
+								"title": "Provider Id (originator)",
+								"placeholder": "Paste provider id"
+							}
+						}
+					}
+				}
+			},
       "serviceAccount": {
         "title": "<i class='fa fa-user-secret'></i> Account di servizio",
         "help": "Account di servizio Microsoft 365: ",
