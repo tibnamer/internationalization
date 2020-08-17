@@ -52,7 +52,7 @@
         "results": {
           "loadServiceAccountKO": {
             "title": "Errore",
-            "message": "Errore nel caricamento dell infrmazioni dell'account di servizio"
+            "message": "Errore nel caricamento delle infrmazioni dell'account di servizio"
           },
           "groups": {
             "checking": "🔎 Verifica della connessione <b>Group.ReadWrite.All</b>",
@@ -61,7 +61,7 @@
             "error": "🤬 Errore: "
           },
           "directory": {
-            "checking": "🔎 Veriica della connessione <b>Directory.AccessAsUser.All</b>",
+            "checking": "🔎 Verifica della connessione <b>Directory.AccessAsUser.All</b>",
             "resultOK": "😃 Connessione a Directory.AccessAsUser.All <b>OK</b>",
             "resultKO": "😱 Connessione a Directory.AccessAsUser.All <b>KO</b>",
             "error": "🤬 Errore: "
@@ -84,7 +84,7 @@
       },
       "enableTemplate": {
         "error": {
-          "msg1": "Mi dispiace, m non posso attivare questo template",
+          "msg1": "Mi dispiace, ma non posso attivare questo template",
           "msg2": "Selezionare il team da clonare."
         }
       },
@@ -97,9 +97,9 @@
     }
   },
   "configurationPage": {
-    "title": "SalesTim | Configurazione Schda",
+    "title": "SalesTim | Configurazione Scheda",
     "headerMessage": "🧙🏼‍ Ciao!",
-    "termsAgreement": "Cliccando su 'Salvare', aderisci a ",
+    "termsAgreement": "Cliccando su 'Salva', aderisci a ",
     "terms": "<a href=\"https://www.salestim.com/legal/tos\" target=\"_blank\">Condizioni di utilizzo</a> e <a href=\"https://www.salestim.com/legal/privacy\" target=\"_blank\">Privacy Policy</a>",
     "touTitle": "Condizioni di utilizzo",
     "privacyTitle": "Politica sulla Privacy",
@@ -132,7 +132,7 @@
     },
     "signin": {
       "button": "🔐 Connessione",
-      "wait": "⏳ SConnessione.."
+      "wait": "⏳ Connessione in corso..."
     },
     "welcomebackLabel": "Bentornato!",
     "hintLabel": "💡 Il tuo account dovrebbe essere",
@@ -143,7 +143,7 @@
       "createCustomer": "Si è verificato un errore nella creazione del tuo profilo cliente",
       "adminConsent": "Autorizzazione dell'amministratore richiesta. Contatta il tuo amministratore.",
       "unexpected": "Errore improvviso",
-      "adminRestricted": "Mi dispiace, qusta pagina è riservata agli amministratori Microsoft 365",
+      "adminRestricted": "Mi dispiace, questa pagina è riservata agli amministratori Microsoft 365",
       "salestimRestricted": "Mi dispiace, questa pagina è riservata agli amministratori SalesTim ",
       "findUser": "Mi dispiace, ma non posso farti entrare senza un indirizzo email valido :-( E' necessaria una licenza Microsoft Exchange e una mailbox attiva per accedere a SalesTim.",
       "findCustomer": "loginPage.error.findCustomer"
@@ -218,7 +218,7 @@
       "canceled": " "
     },
     "teamTabConfig": {
-      "saved": "Salvando..."
+      "saved": "Salvataggio in corso..."
     },
     "login": {
       "started": "Connessione..."
@@ -235,7 +235,7 @@
       },
       "searched": "Cerca",
       "team": {
-        "opened": "Avvo...",
+        "opened": "Avvio...",
         "initiateTalkToOwners": "Inizio della conversazione..."
       },
       "loggedOut": "Disconnessione..."
@@ -293,10 +293,10 @@
         },
         "updated": "Account di servizio (aggiornamento)",
         "check": {
-          "opened": "Controllo dei prerequsiti dell'Account di servizio",
+          "opened": "Controllo dei prerequisiti dell'Account di servizio",
           "closed": "Account di servizio (verificato)"
         },
-        "removed": "Account di serviio (rimosso)"
+        "removed": "Account di servizio (rimosso)"
       },
       "adminConsent": {
         "check": "Controllo autorizzazione dell'amministratore"
@@ -498,7 +498,7 @@
           },
           "members": {
             "label": "Membri: ",
-            "loading": "⏳ Caricamento membri.."
+            "loading": "⏳ Caricamento membri..."
           },
           "owners": {
             "label": "Proprietari: ",
@@ -508,7 +508,7 @@
             "title": "📦 Archiviazione",
             "archived": {
               "tag": "📦",
-              "tooltip": "Questo Team è <b>archivato</b>."
+              "tooltip": "Questo Team è <b>archiviato</b>."
             }
           },
           "visibilityStatus": {
@@ -702,7 +702,7 @@
                   "placeholder": "Inserire descrizione"
                 },
                 "convention": {
-                  "label": "descrizione del template",
+                  "label": "Descrizione del template",
                   "placeholder": "Inserire descrizione"
                 }
               },
@@ -733,14 +733,14 @@
             },
             "targeting": {
               "title": "Targeting",
-							"disabled": "⚠ Approval is currently disabled as it's not yet authorized by an administrator. The approval workflow will be ignored as long as it has not been configured.",
+							"disabled": "⚠ L'approvazione è disattivata in quanto non autorizzata da nessun amministratore. Il workflow di approvazione non sarà preso in considerazione finchè non sarà configurato.",
               "enable": {
                 "title": "🎯 Targeting",
                 "label": "Attiva il Targeting",
                 "help": "Attivando il targeting, potrai decidere a chi sarà destinato questo template in funzione delle informazioni presenti sul profilo Microsoft 365"
               },
               "rules": {
-                "placeholder": "Enter audience targeting rules (use @ or # to include dynamic content)",
+                "placeholder": "Inserire regola Targeting (usare @ oppure # per includere gli attributi)",
                 "checkSyntax": {
                   "button": "Verifica la sintassi"
                 }
@@ -763,12 +763,12 @@
                 "permanentOwners": {
                   "label": "👮🏼‍ Proprietari Permanenti",
                   "placeholder": "Cerca utenti in funzione del loro nome o cognome...",
-                  "help": "Puoi selezionare fino a %s proprietari permanenti. I proprietari permanenti saranno automaticamente aggiunti in quanto proprietari dei team creati de questo template."
+                  "help": "Puoi selezionare fino a %s proprietari permanenti. I proprietari permanenti saranno automaticamente aggiunti in quanto proprietari dei team creati da questo template."
                 },
                 "permanentMembers": {
                   "label": "🤹🏼‍ Membri Permanenti",
                   "placeholder": "Cerca utenti in funzione del loro nome o cognome...",
-                  "help": "Puoi selezionare fino a %s membri permanenti. I membri permanenti saranno automaticamente aggiunti in quanto membri dei team creati de questo template."
+                  "help": "Puoi selezionare fino a %s membri permanenti. I membri permanenti saranno automaticamente aggiunti in quanto membri dei team creati da questo template."
                 }
               }
             },
@@ -914,24 +914,24 @@
       },
       "approval": {
 				"tab": {
-					"title": "<i class='fa fa-check-circle-o'></i> Approval"
+					"title": "<i class='fa fa-check-circle-o'></i> Approvazione"
 				},
 				"actionableMessage": {
 					"navbar": {
-						"title": "<i class='fa fa-envelope-o'></i> Actionable Message"
+						"title": "<i class='fa fa-envelope-o'></i> Messaggio di convalida"
 					},
 					"save": {
-						"button": "<i class='fa fa-floppy-o'></i> Save",
-						"waiting": "⏳ Saving..."
+						"button": "<i class='fa fa-floppy-o'></i> Salva",
+						"waiting": "⏳ Salvataggio in corso..."
 					},
-					"help": "Actionable message help. See <b><i><a target='_blank' href='https://developers.salestim.com/nocode/approval.html'>Team creation approval workflow</a></i></b> from our Tech Hub.",
+					"help": "Messaggio di convalida: aiuto. Vedi <b><i><a target='_blank' href='https://developers.salestim.com/nocode/approval.html'>Workflow di approvazione</a></i></b> nel nostro Tech Hub.",
 					"providerMode": {
-						"label": "Enable organization-level provider",
-						"help": "By selecting this option, the approval notification emails will be sent by the service account itself, using its own email address.",
+						"label": "Attiva un provider al livello dell'organizzazione",
+						"help": "Selezionando quest'opzione, la notifica di approvazione sarà inviata all'Account di servizio, usando il suo stesso indirizzo e-mail.",
 						"providerId": {
 							"input": {
-								"title": "Provider Id (originator)",
-								"placeholder": "Paste provider id"
+								"title": "Provider Id (creatore)",
+								"placeholder": "Incolla Id del provider"
 							}
 						}
 					}
@@ -944,7 +944,7 @@
         "idLabel": "Account di servizio: ",
         "input": {
           "placeholder": "Usa il tasto 'Aggiorna' per selezionare il tuo account di servizio",
-          "loading": "⏳ LCaricamento dell'account di servizio",
+          "loading": "⏳ Caricamento dell'account di servizio",
           "error": {
             "title": "Errore",
             "message": "Errore nel caricamento del tuo account di servizio"
@@ -952,7 +952,7 @@
         },
         "select": {
           "button": "<i class='fa fa-sign-in'></i> Aggiorna",
-          "waitMessage": "⏳ Aggiornamento del tuo account di servizio.."
+          "waitMessage": "⏳ Aggiornamento del tuo account di servizio..."
         },
         "check": {
           "button": "<i class='fa fa-check-circle-o'></i> Verifica prerequisiti",
@@ -1079,7 +1079,7 @@
           "partsToCloneOK": "Verifica degli elementi da clonare: %s",
           "partsToCloneKO": "Elementi da clonare non specificati",
           "namingConventionOK": "Naming convention: %s",
-          "namingConventionKO": "Errore nell'implementare la naming conventions: %s",
+          "namingConventionKO": "Errore nell'implementare la naming convention: %s",
           "checkFinalValuesOK": "Verifica dei parametri della richiesta: %s",
           "checkFinalValuesKO": "Errore durante la verifica dei parametri della richiesta",
           "setRequestLocaleOK": "Richiesta locale configurata a '%s': %s",
@@ -1287,73 +1287,73 @@
 	},
 	"approval": {
 		"login": {
-			"title": "Request Approval",
+			"title": "Richiesta di Approvazione",
 			"meta": "",
-			"message": "Please sign-in to",
+			"message": "Connetersi a",
 			"button": {
-				"normal": "SIGN-IN",
-				"waiting": "⏳ SIGNING-IN"
+				"normal": "CONNETTITI",
+				"waiting": "⏳ CONNESSIONE IN CORSO..."
 			}
 		},
 		"notifications": {
 			"approvers": {
-				"subject": "<%= request.request.requester.name %> sent you an approval request"
+				"subject": "<%= request.request.requester.name %> ti ha inviato una richiesta di approvazione"
 			},
 			"requester": {
-				"subject": "Your request \"<%= request.team.name %>\" has been submitted for approval"
+				"subject": "La tua richiesta \"<%= request.team.name %>\" è stata presentata, in attesa di approvazione"
 			},
 			"approved": {
-				"subject": "Your request \"<%= request.team.name %>\" has been approved"
+				"subject": "La tua richiesta \"<%= request.team.name %>\" è stata approvata"
 			},
 			"rejected": {
-				"subject": "Your request \"<%= request.team.name %>\" has been rejected"
+				"subject": "La tua richiesta \"<%= request.team.name %>\" è stata respinta"
 			}
 		},
 		"card": {
 			"requester": {
-				"jobTitle": "Job Title",
-				"department": "Department"
+				"jobTitle": "Titolo",
+				"department": "Dipartimento"
 			},
 			"request": {
 				"template": "Template",
-				"requester": "Requester",
-				"approver":"Approver",
-				"approvalDate":"Approved on",
-				"rejectionDate":"Rejected on",
-				"rejectionMessage":"Message",
-				"teamName": "Team Name",
-				"teamDescription": "Description",
-				"welcomeMessage": "Welcome Message",
-				"teamNamePlaceholder": "Enter team name here",
-				"teamDescriptionPlaceholder": "Enter team description here",
-				"welcomeMessagePlaceholder": "Enter a welcome message here",
-				"members": "Members",
-				"owners": "Owners",
-				"noMembers": "None",
-				"noOwners": "None",
-				"approvers": "Approvers",
+				"requester": "Richiedente",
+				"approver":"Approvatore",
+				"approvalDate":"Approvata il",
+				"rejectionDate":"Respinta il",
+				"rejectionMessage":"Messaggio",
+				"teamName": "Nome del Team",
+				"teamDescription": "Descrizione",
+				"welcomeMessage": "Messaggio di Benvenuto",
+				"teamNamePlaceholder": "Inserire nome del Team",
+				"teamDescriptionPlaceholder": "Inserire descrizione del Team",
+				"welcomeMessagePlaceholder": "Inserire messaggio di benvenuto",
+				"members": "Membri",
+				"owners": "Proprietari",
+				"noMembers": "Nessuno",
+				"noOwners": "Nessuno",
+				"approvers": "Approvatori",
 				"rejection": {
-					"from": "Message from"
+					"from": "Messaggio da"
 				}
 			},
 			"actions": {
-				"approve": "Approve",
-				"approveMessage": "✅ The request was approved",
-				"edit": "Edit request before approval",
-				"reject": "Reject",
-				"rejectMessage": "⛔ The request was rejected",
-				"comment": "Add a comment for your rejection",
-				"open": "Open Request",
-				"infos": "Request",
+				"approve": "Approva",
+				"approveMessage": "✅ La richiesta è stata approvata",
+				"edit": "Modifica la richiesta prima dell'approvazione",
+				"reject": "Respingi",
+				"rejectMessage": "⛔ La richiesta è stata respinta",
+				"comment": "Aggiungi un commento al respingimento della richiesta",
+				"open": "Apri Richiesta",
+				"infos": "Richiesta",
 				"chat": {
-					"button": "Talk to approvers",
-					"topic": "Request: ",
-					"message": "Hi, I have a question about my request "
+					"button": "Discuti con gli approvatori",
+					"topic": "Richiesta: ",
+					"message": "Ciao, ho una domanda riguardo alla mia richiesta "
 				}
 			}
 		},
 		"email": {
-			"footer": "For security reasons, this message is only available from Outlook (Desktop, Web and Mobile). If this card doesn't appear, <a target='_blank' href='https://store.office.com/app.aspx?assetid=WA104381686&productgroup=Outlook&mktvid=PN102957641&mktcmpid=sendmailsample'/>install the Actionable Messages Debugger Outlook add-in</a> to debug the issue.",
+			"footer": "Per questioni di sicurezza, questo messaggio è accessibile unicamente da Outlook (Desktop, Web and Mobile). Se questa scheda non appare, <a target='_blank' href='https://store.office.com/app.aspx?assetid=WA104381686&productgroup=Outlook&mktvid=PN102957641&mktcmpid=sendmailsample'/>installare l'Actionable Messages Debugger di Outlook add-in</a> per risolvere il problema.",
 			"copyright": "(c) Copyright 2020 SalesTim, all rights reserved."
 		}
 	},
