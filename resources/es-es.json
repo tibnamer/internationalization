@@ -720,7 +720,7 @@
 						},
 						"approval": {
 							"title": "Aprobación",
-							"disabled": "⚠ Approval is currently disabled as it's not yet authorized by an administrator. The approval workflow will be ignored as long as it has not been configured.",
+							"disabled": "⚠ La aprobación está actualmente deshabilitada ya que aún no está autorizada por el administrador. El flujo de trabajo de aprobación se ignorará siempre que no sea configurado.",
 							"enable": {
 								"title": "🏁 Configuraciones de Aprobación",
 								"label": "Habilitar Aprobación",
@@ -914,24 +914,24 @@
 			},
 			"approval": {
 				"tab": {
-					"title": "<i class='fa fa-check-circle-o'></i> Approval"
+					"title": "<i class='fa fa-check-circle-o'></i> Aprobación"
 				},
 				"actionableMessage": {
 					"navbar": {
-						"title": "<i class='fa fa-envelope-o'></i> Actionable Message"
+						"title": "<i class='fa fa-envelope-o'></i> Mensaje procesable"
 					},
 					"save": {
 						"button": "<i class='fa fa-floppy-o'></i> Save",
-						"waiting": "⏳ Saving..."
+						"waiting": "⏳ Guardando..."
 					},
-					"help": "Actionable message help. See <b><i><a target='_blank' href='https://developers.salestim.com/nocode/approval.html'>Team creation approval workflow</a></i></b> from our Tech Hub.",
+					"help": "Mensaje procesable ayuda. Ve <b><i><a target='_blank' href='https://developers.salestim.com/nocode/approval.html'>El flujo de trabajo de aprobación de creación de equipos/a></i></b> from our Tech Hub.",
 					"providerMode": {
-						"label": "Enable organization-level provider",
-						"help": "By selecting this option, the approval notification emails will be sent by the service account itself, using its own email address.",
+						"label": "Habilita el proveedor en el nivel de la organización",
+						"help": "Al seleccionar esta opción, la cuenta de servicio va a mandar los correos de notificacion de la aprobación desde su propio correo electrónico.",
 						"providerId": {
 							"input": {
-								"title": "Provider Id (originator)",
-								"placeholder": "Paste provider id"
+								"title": "ID de proveedor (originator)",
+								"placeholder": "Empasta la ID de proveedor"
 							}
 						}
 					}
@@ -1289,133 +1289,133 @@
 		"login": {
 			"title": "Request Approval",
 			"meta": "",
-			"message": "Please sign-in to",
+			"message": "Por favor, inicia la sesión ",
 			"button": {
-				"normal": "SIGN-IN",
-				"waiting": "⏳ SIGNING-IN"
+				"normal": "INICIA LA SESIÓN",
+				"waiting": "⏳ INICIANDO LA SESIÓN"
 			}
 		},
 		"notifications": {
 			"approvers": {
-				"subject": "<%= request.request.requester.name %> sent you an approval request"
+				"subject": "<%= solicitud.solicitud.nombre del solicitante %> manda tu solicitud de  aprobación"
 			},
 			"requester": {
-				"subject": "Your request \"<%= request.team.name %>\" has been submitted for approval"
+				"subject": "Tu solicitud \"<%= solicitud.nombre.del.equipo %>\" está enviada para aprobación"
 			},
 			"approved": {
-				"subject": "Your request \"<%= request.team.name %>\" has been approved"
+				"subject": "Tu solicitud \"<%= solicitud.nombre.del.equipo %>\" ha sido aprobada"
 			},
 			"rejected": {
-				"subject": "Your request \"<%= request.team.name %>\" has been rejected"
+				"subject": "Tu solicitud \"<%= solicitud.nombre.del.equipo %>\" ha sido rechazada"
 			}
 		},
 		"card": {
 			"requester": {
-				"jobTitle": "Job Title",
-				"department": "Department"
+				"jobTitle": "Título de trabajo",
+				"department": "Departamento"
 			},
 			"request": {
-				"template": "Template",
-				"requester": "Requester",
-				"approver":"Approver",
-				"approvalDate":"Approved on",
-				"rejectionDate":"Rejected on",
-				"rejectionMessage":"Message",
-				"teamName": "Team Name",
-				"teamDescription": "Description",
-				"welcomeMessage": "Welcome Message",
-				"teamNamePlaceholder": "Enter team name here",
-				"teamDescriptionPlaceholder": "Enter team description here",
-				"welcomeMessagePlaceholder": "Enter a welcome message here",
-				"members": "Members",
-				"owners": "Owners",
-				"noMembers": "None",
-				"noOwners": "None",
-				"approvers": "Approvers",
+				"template": "Plantilla",
+				"requester": "Solicitante",
+				"approver": "Aprobador",
+				"approvalDate": "Aprobado el",
+				"rejectionDate": "Rechazado el",
+				"rejectionMessage": "Mensaje",
+				"teamName": "Nombre del equipo",
+				"teamDescription": "Descripción",
+				"welcomeMessage": "Mensaje de bienvenida",
+				"teamNamePlaceholder": "Escribe el nombre del equipo aquí",
+				"teamDescriptionPlaceholder": "Escribe la descripción del equipo aquí",
+				"welcomeMessagePlaceholder": "Escribe el mensaje de bienvenida aquí",
+				"members": "Miembros",
+				"owners": "Propietarios",
+				"noMembers": "Nadie",
+				"noOwners": "Nadie",
+				"approvers": "Aprobadores",
 				"rejection": {
-					"from": "Message from"
+					"from": "Mensaje de"
 				}
 			},
 			"actions": {
-				"approve": "Approve",
-				"approveMessage": "✅ The request was approved",
-				"edit": "Edit request before approval",
-				"reject": "Reject",
-				"rejectMessage": "⛔ The request was rejected",
-				"comment": "Add a comment for your rejection",
-				"open": "Open Request",
-				"infos": "Request",
+				"approve": "Aprobar",
+				"approveMessage": "✅ La solicitud ha sido aprobada",
+				"edit": "Edita la solicituda antes de la aprobación",
+				"reject": "Rechazar",
+				"rejectMessage": "⛔ La solicitud ha sido rechazada",
+				"comment": "Añade un comentario al rechazo",
+				"open": "Abrir Solicitud",
+				"infos": "Solicitud",
 				"chat": {
-					"button": "Talk to approvers",
-					"topic": "Request: ",
-					"message": "Hi, I have a question about my request "
+					"button": "Hablar con aprobadores",
+					"topic": "Solicitud: ",
+					"message": "Hola, tengo una pregunta sobre mi solicitud"
 				}
 			}
 		},
 		"email": {
-			"footer": "For security reasons, this message is only available from Outlook (Desktop, Web and Mobile). If this card doesn't appear, <a target='_blank' href='https://store.office.com/app.aspx?assetid=WA104381686&productgroup=Outlook&mktvid=PN102957641&mktcmpid=sendmailsample'/>install the Actionable Messages Debugger Outlook add-in</a> to debug the issue.",
-			"copyright": "(c) Copyright 2020 SalesTim, all rights reserved."
+			"footer": "Por razones de seguridad, este mensaje está disponible sólo desde Outlook (Escritorio, Web y Móvil). Si esta tarjeta not sure what card means in this context no aparece, <a target='_blank' href='https://store.office.com/app.aspx?assetid=WA104381686&productgroup=Outlook&mktvid=PN102957641&mktcmpid=sendmailsample'/>instala el accesorio de Outlook Depurador de los Mensajes Procesables </a> para depurar el problema.",
+			"copyright": "(c) Copyright 2020 SalesTim, todos los derechos reservados."
 		}
 	},
 	"tags": {
 		"user": {
 			"profile": {
 				"id": "User > ID (Unique Azure AD identifier as a GUID)",
-				"city": "User > City",
-				"companyName": "User > Company Name",
-				"country": "User > Country",
-				"department": "User > Department",
-				"displayName": "User > Display Name. e.g: 'Alice Hawking'",
-				"employeeId": "User > Employee ID",
-				"givenName": "User > Given Name",
-				"jobTitle": "User > Job Title",
-				"mail": "User > Mail",
-				"mailNickname": "User > Mail Nickname. e.g 'alice.hawking'",
-				"mobilePhone": "User > Mobile Phone",
-				"officeLocation": "User > Office Location",
-				"postalCode": "User > Postal Code",
-				"preferredLanguage": "User > Preferred Language. e.g 'en-US'",
-				"state": "User > State",
-				"streetAddress": "User > Street Address",
-				"surname": "User > Surname",
-				"usageLocation": "User > Usage Location. e.g 'US'",
-				"userPrincipalName": "User > User Principal Name.",
+				"city": "Usario > Ciudad",
+				"companyName": "Usario > Nombre de Empresa",
+				"country": "Usario > Pais",
+				"department": "Usario > Departmento",
+				"displayName": "Usario > Nombre desplegado. e.g: 'Alice Hawking'",
+				"employeeId": " Usario > ID del empleado",
+				"givenName": " Usario > Nombre",
+				"jobTitle": " Usario > Título de trabajo",
+				"mail": " Usario > Correo",
+				"mailNickname": " Usario > Apodo del correo. e.g 'alice.hawking'",
+				"mobilePhone": " Usario > Número de teléfono",
+				"officeLocation": " Usario > Ubicación de la oficina",
+				"postalCode": " Usario > Código postal",
+				"preferredLanguage": " Usario > Idioma de preferencia. e.g 'en-US'",
+				"state": " Usario > Estado",
+				"streetAddress": " Usario > Dirección (calle)",
+				"surname": " Usario > Apellido",
+				"usageLocation": " Usario > Ubicacion del uso. P.ej. 'EEUU'",
+				"userPrincipalName": " Usario > Nombre prinipal del usario.",
 				"onPremisesExtensionAttributes": {
-					"extensionAttribute1": "User > On-premises extension attribute 1",
-					"extensionAttribute2": "User > On-premises extension attribute 2",
-					"extensionAttribute3": "User > On-premises extension attribute 3",
-					"extensionAttribute4": "User > On-premises extension attribute 4",
-					"extensionAttribute5": "User > On-premises extension attribute 5",
-					"extensionAttribute6": "User > On-premises extension attribute 6",
-					"extensionAttribute7": "User > On-premises extension attribute 7",
-					"extensionAttribute8": "User > On-premises extension attribute 8",
-					"extensionAttribute9": "User > On-premises extension attribute 9",
-					"extensionAttribute10": "User > On-premises extension attribute 10",
-					"extensionAttribute11": "User > On-premises extension attribute 11",
-					"extensionAttribute12": "User > On-premises extension attribute 12",
-					"extensionAttribute13": "User > On-premises extension attribute 13",
-					"extensionAttribute14": "User > On-premises extension attribute 14",
-					"extensionAttribute15": "User > On-premises extension attribute 15"
+					"extensionAttribute1": "Usario > Extensión local atributo 1",
+					"extensionAttribute2": "Usario > Extensión local atributo 2",
+					"extensionAttribute3": "Usario > Extensión local atributo 3",
+					"extensionAttribute4": "Usario > Extensión local atributo 4",
+					"extensionAttribute5": "Usario > Extensión local atributo 5",
+					"extensionAttribute6": "Usario > Extensión local atributo 6",
+					"extensionAttribute7": "Usario > Extensión local atributo 7",
+					"extensionAttribute8": "Usario > Extensión local atributo 8",
+					"extensionAttribute9": "Usario > Extensión local atributo 9",
+					"extensionAttribute10": "Usario > Extensión local atributo 10",
+					"extensionAttribute11": "Usario > Extensión local atributo 11",
+					"extensionAttribute12": "Usario > Extensión local atributo 12",
+					"extensionAttribute13": "Usario > Extensión local atributo 13",
+					"extensionAttribute14": "Usario > Extensión local atributo 14",
+					"extensionAttribute15": "Usario > Extensión local atributo 15",
 				}
 			},
 			"groups": {
-				"direct": "Groups > All the groups that the user is a DIRECT member of.",
-				"transitive": "Groups > All the groups that the user is a member of including by transitivity."
+				"direct": "Grupos > Todos los grupos donde el usario es el miembro directo.",
+				"transitive": "Grupos > Todos los grupos donde el usario es el miembro aun transitivamente."
 			}
 		},
 		"request": {
 			"team": {
-				"name": "Request > Team Name",
-				"description": "Request > Team Description",
-				"welcomeMessage": "Request > Welcome Message"
+				"name": "Solicitud > Nombre del Equipo",
+				"description": "Solicitud > Descripción del Equipo",
+				"welcomeMessage": " Solicitud > Mensaje de bienvenida"
 			},
 			"template": {
-				"name": "Request > Template Name"
+				"name": "Solicitud template > Nombre de la Plantilla"
 			}
 		},
 		"uniqueId": {
-			"fromDate": "Unique ID > A unique ID generated from the current date. e.g '1597065805024'",
-			"uuid": "Unique ID > A unique ID randomly generated as a guid. e.g: '42e3c9b3-6040-4a73-8a43-50eaa01572c0'"
+			"fromDate": "ID única > La ID única generada por la fecha actual. e.g '1597065805024'",
+			"uuid": "ID única> La ID única generada aleatoriamente como una guía . e.g: '42e3c9b3-6040-4a73-8a43-50eaa01572c0'"
 		}
 	}
 }
