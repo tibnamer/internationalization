@@ -287,6 +287,12 @@
 			"loggedOut": "Signing-out..."
 		},
 		"settings": {
+			"approval":{
+				"panel":{
+					"opened":"Approval Settings"
+				},
+				"updated":"Approval Settings (updated)"
+			},
 			"serviceAccount": {
 				"panel": {
 					"opened": "Service account"

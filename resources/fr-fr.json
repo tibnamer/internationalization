@@ -287,11 +287,17 @@
 			"loggedOut": "Déconnexion..."
 		},
 		"settings": {
+			"approval":{
+				"panel":{
+					"opened":"Paramètres d'approbation"
+				},
+				"updated":"Paramètres d'approbation (mis à jour)"
+			},
 			"serviceAccount": {
 				"panel": {
 					"opened": "Compte de service"
 				},
-				"updated": "Compte de service (mise à jour)",
+				"updated": "Compte de service (mis à jour)",
 				"check": {
 					"opened": "Contrôle des prérequis du compte de service",
 					"closed": "Compte de service (contrôlé)"

@@ -287,11 +287,17 @@
 			"loggedOut": "Signing-out..."
 		},
 		"settings": {
+			"approval":{
+				"panel":{
+					"opened":"Approval Settings"
+				},
+				"updated":"Approval Settings (updated)"
+			},
 			"serviceAccount": {
 				"panel": {
 					"opened": "Service account"
 				},
-				"updated": "Service account (update)",
+				"updated": "Service account (updated)",
 				"check": {
 					"opened": "Checking service account prerequisites",
 					"closed": "Service account (checked)"

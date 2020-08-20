@@ -287,6 +287,12 @@
 			"loggedOut": "Cerrando Sesión..."
 		},
 		"settings": {
+			"approval":{
+				"panel":{
+					"opened":"Approval Settings"
+				},
+				"updated":"Approval Settings (updated)"
+			},
 			"serviceAccount": {
 				"panel": {
 					"opened": "Cuenta de Servicio"
