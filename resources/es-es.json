@@ -1366,7 +1366,7 @@
 	"tags": {
 		"user": {
 			"profile": {
-				"id": "User > ID (Unique Azure AD identifier as a GUID)",
+				"id": "User > ID (Unique Azure AD identifier as a UUID)",
 				"city": "Usario > Ciudad",
 				"companyName": "Usario > Nombre de Empresa",
 				"country": "Usario > Pais",
@@ -1421,7 +1421,7 @@
 		},
 		"uniqueId": {
 			"fromDate": "ID única > La ID única generada por la fecha actual. e.g '1597065805024'",
-			"uuid": "ID única> La ID única generada aleatoriamente como una guía . e.g: '42e3c9b3-6040-4a73-8a43-50eaa01572c0'"
+			"uuid": "ID única> La ID única generada aleatoriamente como una UUID . e.g: '42e3c9b3-6040-4a73-8a43-50eaa01572c0'"
 		}
 	}
 }

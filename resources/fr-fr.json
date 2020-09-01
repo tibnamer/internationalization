@@ -1293,135 +1293,135 @@
 	},
 	"approval": {
 		"login": {
-			"title": "Request Approval",
+			"title": "Demande d'approbation",
 			"meta": "",
-			"message": "Please sign-in to",
+			"message": "Merci de vous connecter pour",
 			"button": {
-				"normal": "SIGN-IN",
-				"waiting": "⏳ SIGNING-IN"
+				"normal": "ME CONNECTER",
+				"waiting": "⏳ CONNEXION..."
 			}
 		},
 		"notifications": {
 			"approvers": {
-				"subject": "<%= request.request.requester.name %> sent you an approval request"
+				"subject": "<%= request.request.requester.name %> vous a envoyé une demande d'approbation"
 			},
 			"requester": {
-				"subject": "Your request \"<%= request.team.name %>\" has been submitted for approval"
+				"subject": "Votre demande \"<%= request.team.name %>\" a été envoyée pour approbation"
 			},
 			"approved": {
-				"subject": "Your request \"<%= request.team.name %>\" has been approved"
+				"subject": "Votre demande \"<%= request.team.name %>\" a été approuvée"
 			},
 			"rejected": {
-				"subject": "Your request \"<%= request.team.name %>\" has been rejected"
+				"subject": "Votre demande \"<%= request.team.name %>\" a été rejetée"
 			}
 		},
 		"card": {
 			"requester": {
-				"jobTitle": "Job Title",
-				"department": "Department"
+				"jobTitle": "Fonction",
+				"department": "Département"
 			},
 			"request": {
-				"template": "Template",
-				"requester": "Requester",
-				"approver": "Approver",
-				"approvalDate": "Approved on",
-				"rejectionDate": "Rejected on",
+				"template": "Modèle",
+				"requester": "Demandeur",
+				"approver": "Approbateur",
+				"approvalDate": "Approuvée le",
+				"rejectionDate": "Rejetée le",
 				"rejectionMessage": "Message",
-				"teamName": "Team Name",
+				"teamName": "Nom de l'équipe",
 				"teamDescription": "Description",
-				"welcomeMessage": "Welcome Message",
-				"teamNamePlaceholder": "Enter team name here",
-				"teamDescriptionPlaceholder": "Enter team description here",
-				"welcomeMessagePlaceholder": "Enter a welcome message here",
-				"members": "Members",
-				"owners": "Owners",
-				"noMembers": "None",
-				"noOwners": "None",
-				"approvers": "Approvers",
+				"welcomeMessage": "Message de bienvenue",
+				"teamNamePlaceholder": "Saisissez le nom de l'équipe",
+				"teamDescriptionPlaceholder": "Saisissez la description de l'équipe",
+				"welcomeMessagePlaceholder": "Saisissez un message de bienvenue",
+				"members": "Membres",
+				"owners": "Propriétaires",
+				"noMembers": "Aucun",
+				"noOwners": "Aucun",
+				"approvers": "Approbateurs",
 				"rejection": {
-					"from": "Message from"
+					"from": "Message de"
 				}
 			},
 			"actions": {
-				"approve": "Approve",
-				"approveMessage": "✅ The request was approved",
-				"edit": "Edit request before approval",
-				"reject": "Reject",
-				"rejectMessage": "⛔ The request was rejected",
-				"comment": "Add a comment for your rejection",
-				"open": "Open Request",
-				"infos": "Request",
+				"approve": "Approuver",
+				"approveMessage": "✅ La requête a été approuvée",
+				"edit": "Modifier la requête avant approbation",
+				"reject": "Rejeter",
+				"rejectMessage": "⛔ La requête a été rejetée",
+				"comment": "Ajoutez un commentaire pour motiver votre refus",
+				"open": "Ouvrir la requête",
+				"infos": "Requête",
 				"chat": {
-					"button": "Talk to approvers",
-					"topic": "Request: ",
-					"message": "Hi, I have a question about my request "
+					"button": "Parler aux approbateurs",
+					"topic": "Requête: ",
+					"message": "Bonjour, j'ai une question à propos de ma requête "
 				}
 			}
 		},
 		"email": {
-			"footer": "For security reasons, this message is only available from Outlook (Desktop, Web and Mobile). If this card doesn't appear, <a target='_blank' href='https://store.office.com/app.aspx?assetid=WA104381686&productgroup=Outlook&mktvid=PN102957641&mktcmpid=sendmailsample'/>install the Actionable Messages Debugger Outlook add-in</a> to debug the issue.",
-			"copyright": "(c) Copyright 2020 SalesTim, all rights reserved."
+			"footer": "Pour des raisons de sécurité, ce message est uniquement consultable depuis Outlook (Bureau, Web et Mobile). Si le contenu ne s'affiche pas, <a target='_blank' href='https://store.office.com/app.aspx?assetid=WA104381686&productgroup=Outlook&mktvid=PN102957641&mktcmpid=sendmailsample'/>installez l'add-in Outlook 'Actionable Messages Debugger'</a> pour diagnostiquer le problème.",
+			"copyright": "(c) Copyright 2020 SalesTim, tous droits réservés."
 		}
 	},
 	"tags": {
 		"user": {
 			"profile": {
-				"id": "User > ID (Unique Azure AD identifier as a GUID)",
-				"city": "User > City",
-				"companyName": "User > Company Name",
-				"country": "User > Country",
-				"department": "User > Department",
-				"displayName": "User > Display Name. e.g: 'Alice Hawking'",
-				"employeeId": "User > Employee ID",
-				"givenName": "User > Given Name",
-				"jobTitle": "User > Job Title",
-				"mail": "User > Mail",
-				"mailNickname": "User > Mail Nickname. e.g 'alice.hawking'",
-				"mobilePhone": "User > Mobile Phone",
-				"officeLocation": "User > Office Location",
-				"postalCode": "User > Postal Code",
-				"preferredLanguage": "User > Preferred Language. e.g 'en-US'",
-				"state": "User > State",
-				"streetAddress": "User > Street Address",
-				"surname": "User > Surname",
-				"usageLocation": "User > Usage Location. e.g 'US'",
-				"userPrincipalName": "User > User Principal Name.",
+				"id": "Utilisateur > Identifiant unique (Identifiant unique Azure AD sous la forme d'un UUID)",
+				"city": "Utilisateur > Ville",
+				"companyName": "Utilisateur > Nom de l'entreprise",
+				"country": "Utilisateur > Pays",
+				"department": "Utilisateur > Département",
+				"displayName": "Utilisateur > Nom complet. Par exemple 'Alice Hawking'",
+				"employeeId": "Utilisateur > Matricule",
+				"givenName": "Utilisateur > Prénom",
+				"jobTitle": "Utilisateur > Fonction",
+				"mail": "Utilisateur > email",
+				"mailNickname": "Utilisateur > Préfixe email. Par exemple 'alice.hawking'",
+				"mobilePhone": "Utilisateur > Téléphone mobile",
+				"officeLocation": "Utilisateur > Bureau",
+				"postalCode": "Utilisateur > Code postal",
+				"preferredLanguage": "Utilisateur > Langue préférée. Par exemple 'en-US'",
+				"state": "Utilisateur > Etat",
+				"streetAddress": "Utilisateur > Adresse postale",
+				"surname": "Utilisateur > Nom de famille",
+				"usageLocation": "Utilisateur > Localisation de l'usage Microsoft 365. Par exemple 'US'",
+				"userPrincipalName": "Utilisateur > Nom d'utilisateur principal (UPN).",
 				"onPremisesExtensionAttributes": {
-					"extensionAttribute1": "User > On-premises extension attribute 1",
-					"extensionAttribute2": "User > On-premises extension attribute 2",
-					"extensionAttribute3": "User > On-premises extension attribute 3",
-					"extensionAttribute4": "User > On-premises extension attribute 4",
-					"extensionAttribute5": "User > On-premises extension attribute 5",
-					"extensionAttribute6": "User > On-premises extension attribute 6",
-					"extensionAttribute7": "User > On-premises extension attribute 7",
-					"extensionAttribute8": "User > On-premises extension attribute 8",
-					"extensionAttribute9": "User > On-premises extension attribute 9",
-					"extensionAttribute10": "User > On-premises extension attribute 10",
-					"extensionAttribute11": "User > On-premises extension attribute 11",
-					"extensionAttribute12": "User > On-premises extension attribute 12",
-					"extensionAttribute13": "User > On-premises extension attribute 13",
-					"extensionAttribute14": "User > On-premises extension attribute 14",
-					"extensionAttribute15": "User > On-premises extension attribute 15"
+					"extensionAttribute1": "Utilisateur > Attribut d'extension 'on-premises' 1",
+					"extensionAttribute2": "Utilisateur > Attribut d'extension 'on-premises' 2",
+					"extensionAttribute3": "Utilisateur > Attribut d'extension 'on-premises' 3",
+					"extensionAttribute4": "Utilisateur > Attribut d'extension 'on-premises' 4",
+					"extensionAttribute5": "Utilisateur > Attribut d'extension 'on-premises' 5",
+					"extensionAttribute6": "Utilisateur > Attribut d'extension 'on-premises' 6",
+					"extensionAttribute7": "Utilisateur > Attribut d'extension 'on-premises' 7",
+					"extensionAttribute8": "Utilisateur > Attribut d'extension 'on-premises' 8",
+					"extensionAttribute9": "Utilisateur > Attribut d'extension 'on-premises' 9",
+					"extensionAttribute10": "Utilisateur > Attribut d'extension 'on-premises' 10",
+					"extensionAttribute11": "Utilisateur > Attribut d'extension 'on-premises' 11",
+					"extensionAttribute12": "Utilisateur > Attribut d'extension 'on-premises' 12",
+					"extensionAttribute13": "Utilisateur > Attribut d'extension 'on-premises' 13",
+					"extensionAttribute14": "Utilisateur > Attribut d'extension 'on-premises' 14",
+					"extensionAttribute15": "Utilisateur > Attribut d'extension 'on-premises' 15"
 				}
 			},
 			"groups": {
-				"direct": "Groups > All the groups that the user is a DIRECT member of.",
-				"transitive": "Groups > All the groups that the user is a member of including by transitivity."
+				"direct": "Groupes > Tous les groupes dont l'utilisateur est un membre DIRECT.",
+				"transitive": "Groupes > Tous les groupes dont l'utilisateur est membre, y compris par TRANSITIVITE."
 			}
 		},
 		"request": {
 			"team": {
-				"name": "Request > Team Name",
-				"description": "Request > Team Description",
-				"welcomeMessage": "Request > Welcome Message"
+				"name": "Requête > Nom de l'équipe",
+				"description": "Requête > Description de l'équipe",
+				"welcomeMessage": "Requête > Message de bienvenue"
 			},
 			"template": {
-				"name": "Request > Template Name"
+				"name": "Requête > Nom du modèle"
 			}
 		},
 		"uniqueId": {
-			"fromDate": "Unique ID > A unique ID generated from the current date. e.g '1597065805024'",
-			"uuid": "Unique ID > A unique ID randomly generated as a guid. e.g: '42e3c9b3-6040-4a73-8a43-50eaa01572c0'"
+			"fromDate": "Identifiant unique > Un identifiant unique généré à partir de la date et l'heure courante. Par exemple '1597065805024'",
+			"uuid": "Identifiant unique > Un identifiant unique généré aléatoirement sous la forme d'un UUID. Par exemple '42e3c9b3-6040-4a73-8a43-50eaa01572c0'"
 		}
 	}
 }
