@@ -287,11 +287,11 @@
 			"loggedOut": "Signing-out..."
 		},
 		"settings": {
-			"approval":{
-				"panel":{
-					"opened":"Approval Settings"
+			"approval": {
+				"panel": {
+					"opened": "Approval Settings"
 				},
-				"updated":"Approval Settings (updated)"
+				"updated": "Approval Settings (updated)"
 			},
 			"serviceAccount": {
 				"panel": {
@@ -907,8 +907,8 @@
 		"settings": {
 			"save": {
 				"success": {
-					"title": "Created!",
-					"message": "Template created successfully"
+					"title": "Success",
+					"message": "Your settings have been saved."
 				}
 			},
 			"title": "Settings",
@@ -1199,8 +1199,12 @@
 	"settings": {
 		"save": {
 			"error": {
-				"title": "settings.save.error.title",
-				"message": "settings.save.error.message"
+				"title": "Error",
+				"message": "An error occured while saving your settings."
+			},
+			"success": {
+				"title": "Success",
+				"message": "New settings have been saved."
 			}
 		}
 	},

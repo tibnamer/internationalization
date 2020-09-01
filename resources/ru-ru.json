@@ -1199,8 +1199,12 @@
 	"settings": {
 		"save": {
 			"error": {
-				"title": "settings.save.error.title",
-				"message": "settings.save.error.message"
+				"title": "Error",
+				"message": "An error occured while saving your settings."
+			},
+			"success": {
+				"title": "Success",
+				"message": "New settings have been saved."
 			}
 		}
 	},

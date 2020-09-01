@@ -1199,8 +1199,12 @@
 	"settings": {
 		"save": {
 			"error": {
-				"title": "settings.save.error.title",
-				"message": "settings.save.error.message"
+				"title": "Erreur",
+				"message": "Une erreur est survenue lors de l'enregistrement de votre configuration."
+			},
+			"success": {
+				"title": "Succès",
+				"message": "Votre nouvelle configuration a bien été enregistrée."
 			}
 		}
 	},
