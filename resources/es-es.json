@@ -1303,16 +1303,16 @@
 		},
 		"notifications": {
 			"approvers": {
-				"subject": "<%= solicitud.solicitud.nombre del solicitante %> manda tu solicitud de  aprobación"
+				"subject": "<%= request.request.requester.name %> manda tu solicitud de aprobación"
 			},
 			"requester": {
-				"subject": "Tu solicitud \"<%= solicitud.nombre.del.equipo %>\" está enviada para aprobación"
+				"subject": "Tu solicitud \"<%= request.team.name %>\" está enviada para aprobación"
 			},
 			"approved": {
-				"subject": "Tu solicitud \"<%= solicitud.nombre.del.equipo %>\" ha sido aprobada"
+				"subject": "Tu solicitud \"<%= request.team.name %>\" ha sido aprobada"
 			},
 			"rejected": {
-				"subject": "Tu solicitud \"<%= solicitud.nombre.del.equipo %>\" ha sido rechazada"
+				"subject": "Tu solicitud \"<%= request.team.name %>\" ha sido rechazada"
 			}
 		},
 		"card": {
@@ -1359,7 +1359,7 @@
 			}
 		},
 		"email": {
-			"footer": "Por razones de seguridad, este mensaje está disponible sólo desde Outlook (Escritorio, Web y Móvil). Si esta tarjeta not sure what card means in this context no aparece, <a target='_blank' href='https://store.office.com/app.aspx?assetid=WA104381686&productgroup=Outlook&mktvid=PN102957641&mktcmpid=sendmailsample'/>instala el accesorio de Outlook Depurador de los Mensajes Procesables </a> para depurar el problema.",
+			"footer": "Por razones de seguridad, este mensaje está disponible sólo desde Outlook (Escritorio, Web y Móvil). Si esta tarjeta not sure what card means in this context no aparece, <a target='_blank' href='https://store.office.com/app.aspx?assetid=WA104381686&productgroup=Outlook&mktvid=PN102957641&mktcmpid=sendmailsample'/>instala el accesorio de Outlook Depurador de los Mensajes Procesables</a> para depurar el problema.",
 			"copyright": "(c) Copyright 2020 SalesTim, todos los derechos reservados."
 		}
 	},
