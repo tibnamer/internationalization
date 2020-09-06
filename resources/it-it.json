@@ -52,7 +52,7 @@
         "results": {
           "loadServiceAccountKO": {
             "title": "Errore",
-            "message": "Errore nel caricamento delle infrmazioni dell'account di servizio"
+            "message": "Errore nel caricamento delle informazioni dell'account di servizio"
           },
           "groups": {
             "checking": "🔎 Verifica della connessione <b>Group.ReadWrite.All</b>",
@@ -121,7 +121,7 @@
     "title": "SalesTim | Connessione",
     "headerMessage": "Benvenuto su SalesTim",
     "welcome": "Connettiti con il tuo account Microsoft 365.",
-    "termsAgreement": "Cliccando su \"Connettiti\", aderisci ai",
+    "termsAgreement": "Cliccando su \"Connessione\", aderisci ai",
     "tos": {
       "url": "https://www.salestim.com/legal/tos",
       "message": "TERMINI DI SERVIZIO"
@@ -164,7 +164,7 @@
       },
       "close": "Chiudi"
     },
-    "learnMore": "Per saperne di più...",
+    "learnMore": "Saperne di più...",
     "scrollDown": "Scorrere verso il basso",
     "linkedin": {
       "url": "https://www.linkedin.com/company/salestim",
@@ -727,7 +727,8 @@
             "approval": {
               "title": "Approvazione",
               "enable": {
-                "title": "🏁 Impostazioni",
+                "disabled": "⚠ L'approvazione è disattivata in quanto non autorizzata dall'amministratore. Il processo di approvazione sarà ignorato finché non verrà configurato.",
+		"title": "🏁 Impostazioni",
                 "label": "Attiva approvazione",
                 "help": "Attivando l'approvazione, potrai decidere chi saranno gli approvatori per i team creati da questo template"
               },
@@ -739,7 +740,6 @@
             },
             "targeting": {
               "title": "Targeting",
-							"disabled": "⚠ L'approvazione è disattivata in quanto non autorizzata da nessun amministratore. Il workflow di approvazione non sarà preso in considerazione finchè non sarà configurato.",
               "enable": {
                 "title": "🎯 Targeting",
                 "label": "Attiva il Targeting",
@@ -933,7 +933,7 @@
 					"help": "Messaggio di convalida: aiuto. Vedi <b><i><a target='_blank' href='https://developers.salestim.com/nocode/approval.html'>Workflow di approvazione</a></i></b> nel nostro Tech Hub.",
 					"providerMode": {
 						"label": "Attiva un provider al livello dell'organizzazione",
-						"help": "Selezionando quest'opzione, la notifica di approvazione sarà inviata all'Account di servizio, usando il suo stesso indirizzo e-mail.",
+						"help": "Selezionando quest'opzione, la notifica di approvazione sarà inviata dall'Account di servizio, usando il suo stesso indirizzo e-mail.",
 						"providerId": {
 							"input": {
 								"title": "Provider Id (creatore)",
@@ -1199,12 +1199,12 @@
   "settings": {
     "save": {
 			"error": {
-				"title": "Error",
-				"message": "An error occured while saving your settings."
+				"title": "Errore",
+				"message": "Errore nel salvamento delle impostanzioni."
 			},
 			"success": {
-				"title": "Success",
-				"message": "New settings have been saved."
+				"title": "Successo",
+				"message": "Le nuove impostazioni sono state salvate."
 			}
 		}
   },
@@ -1371,61 +1371,61 @@
 		"user": {
 			"profile": {
 				"id": "User > ID (Unique Azure AD identifier as a UUID)",
-				"city": "User > City",
-				"companyName": "User > Company Name",
-				"country": "User > Country",
-				"department": "User > Department",
-				"displayName": "User > Display Name. e.g: 'Alice Hawking'",
-				"employeeId": "User > Employee ID",
-				"givenName": "User > Given Name",
-				"jobTitle": "User > Job Title",
-				"mail": "User > Mail",
-				"mailNickname": "User > Mail Nickname. e.g 'alice.hawking'",
-				"mobilePhone": "User > Mobile Phone",
-				"officeLocation": "User > Office Location",
-				"postalCode": "User > Postal Code",
-				"preferredLanguage": "User > Preferred Language. e.g 'en-US'",
-				"state": "User > State",
-				"streetAddress": "User > Street Address",
-				"surname": "User > Surname",
-				"usageLocation": "User > Usage Location. e.g 'US'",
-				"userPrincipalName": "User > User Principal Name.",
+				"city": "Utente > Città",
+				"companyName": "Utente > Nome Organizzazione",
+				"country": "Utente > Paese",
+				"department": "Utente > Dipartimento",
+				"displayName": "Utente > Nome Visualizzato. e.g: 'Alice Hawking'",
+				"employeeId": "Utente > ID Dipendente",
+				"givenName": "Utente > Nome",
+				"jobTitle": "Utente > Figura Professionale",
+				"mail": "Utente > Email",
+				"mailNickname": "Utente > Nome Utente Email. e.g 'alice.hawking'",
+				"mobilePhone": "Utente > Telefono",
+				"officeLocation": "Utente > Luogo Ufficio",
+				"postalCode": "Utente > Codice Postale",
+				"preferredLanguage": "Utente > Lingua Preferita. e.g 'en-US'",
+				"state": "Utente > Stato",
+				"streetAddress": "Utente > Indirizzo",
+				"surname": "Utente > Cognome",
+				"usageLocation": "Utente > Localizzazione. e.g 'US'",
+				"userPrincipalName": "Utente > Nome Principale dell'Utente.",
 				"onPremisesExtensionAttributes": {
-					"extensionAttribute1": "User > On-premises extension attribute 1",
-					"extensionAttribute2": "User > On-premises extension attribute 2",
-					"extensionAttribute3": "User > On-premises extension attribute 3",
-					"extensionAttribute4": "User > On-premises extension attribute 4",
-					"extensionAttribute5": "User > On-premises extension attribute 5",
-					"extensionAttribute6": "User > On-premises extension attribute 6",
-					"extensionAttribute7": "User > On-premises extension attribute 7",
-					"extensionAttribute8": "User > On-premises extension attribute 8",
-					"extensionAttribute9": "User > On-premises extension attribute 9",
-					"extensionAttribute10": "User > On-premises extension attribute 10",
-					"extensionAttribute11": "User > On-premises extension attribute 11",
-					"extensionAttribute12": "User > On-premises extension attribute 12",
-					"extensionAttribute13": "User > On-premises extension attribute 13",
-					"extensionAttribute14": "User > On-premises extension attribute 14",
-					"extensionAttribute15": "User > On-premises extension attribute 15"
+					"extensionAttribute1": "Utente > Estensione Attributo 'On-premises' 1",
+					"extensionAttribute2": "Utente > Estensione Attributo 'On-premises' 2",
+					"extensionAttribute3": "Utente > Estensione Attributo 'On-premises' 3",
+					"extensionAttribute4": "Utente > Estensione Attributo 'On-premises' 4",
+					"extensionAttribute5": "Utente > Estensione Attributo 'On-premises' 5",
+					"extensionAttribute6": "Utente > Estensione Attributo 'On-premises' 6",
+					"extensionAttribute7": "Utente > Estensione Attributo 'On-premises' 7",
+					"extensionAttribute8": "Utente > Estensione Attributo 'On-premises' 8",
+					"extensionAttribute9": "Utente > Estensione Attributo 'On-premises' 9",
+					"extensionAttribute10": "Utente > Estensione Attributo 'On-premises' 10",
+					"extensionAttribute11": "Utente > Estensione Attributo 'On-premises' 11",
+					"extensionAttribute12": "Utente > Estensione Attributo 'On-premises' 12",
+					"extensionAttribute13": "Utente > Estensione Attributo 'On-premises' 13",
+					"extensionAttribute14": "Utente > Estensione Attributo 'On-premises' 14",
+					"extensionAttribute15": "Utente > Estensione Attributo 'On-premises' 15"
 				}
 			},
 			"groups": {
-				"direct": "Groups > All the groups that the user is a DIRECT member of.",
-				"transitive": "Groups > All the groups that the user is a member of including by transitivity."
+				"direct": "Gruppi > Tutti i gruppi di cui l'utente è un membro DIRETTO.",
+				"transitive": "Gruppi > Tutti i gruppi di cui l'utente è membro in quanto incluso via un'attività transitiva."
 			}
 		},
 		"request": {
 			"team": {
-				"name": "Request > Team Name",
-				"description": "Request > Team Description",
-				"welcomeMessage": "Request > Welcome Message"
+				"name": "Richiesta > Nome del Team",
+				"description": "Richiesta > Descrizione del Team",
+				"welcomeMessage": "Richiesta > Messaggio di benvenuto"
 			},
 			"template": {
-				"name": "Request > Template Name"
+				"name": "Richiesta > Nome del Template"
 			}
 		},
 		"uniqueId": {
-			"fromDate": "Unique ID > A unique ID generated from the current date. e.g '1597065805024'",
-			"uuid": "Unique ID > A unique ID randomly generated as a UUID. e.g: '42e3c9b3-6040-4a73-8a43-50eaa01572c0'"
+			"fromDate": "ID unico > Un unico ID generato la data corrente. e.g '1597065805024'",
+			"uuid": "ID unico > Un unico ID casualmente generato come un UUID. e.g: '42e3c9b3-6040-4a73-8a43-50eaa01572c0'"
 		}
 	}
 }
