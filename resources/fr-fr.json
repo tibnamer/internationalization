@@ -726,7 +726,7 @@
 						},
 						"approval": {
 							"title": "Approbation",
-							"disabled": "⚠ Approval is currently disabled as it's not yet authorized by an administrator. The approval workflow will be ignored as long as it has not been configured.",
+							"disabled": "⚠ L'approbation est désactivée car non-authorizée par aucun administrateur. Le processus d'approbatio sera ignoré jusqu'à quand il sera configuré.",
 							"enable": {
 								"label": "Activer",
 								"help": "En activant vous pourrez désigner un approbateur des demande de création dans votre entreprise.",
@@ -742,7 +742,7 @@
 							"title": "Audiences",
 							"enable": {
 								"label": "Activer le ciblage d'audience",
-								"help": "En activant le ciblage vous serez en mesure une audience cible pour ce modèle, en fonction des données du profil utilisateur Office 365, Azure AD",
+								"help": "En activant le ciblage vous serez en mesure de définir une audience cible pour ce modèle, en fonction des données du profil utilisateur Office 365, Azure AD",
 								"title": "🎯 Ciblage d'Audiences"
 							},
 							"rules": {
@@ -920,24 +920,24 @@
 			},
 			"approval": {
 				"tab": {
-					"title": "<i class='fa fa-check-circle-o'></i> Approval"
+					"title": "<i class='fa fa-check-circle-o'></i> Approbation"
 				},
 				"actionableMessage": {
 					"navbar": {
-						"title": "<i class='fa fa-envelope-o'></i> Actionable Message"
+						"title": "<i class='fa fa-envelope-o'></i> Messages Actionnables"
 					},
 					"save": {
-						"button": "<i class='fa fa-floppy-o'></i> Save",
-						"waiting": "⏳ Saving..."
+						"button": "<i class='fa fa-floppy-o'></i> Sauvegarder",
+						"waiting": "⏳ Enregistrement..."
 					},
-					"help": "Actionable message help. See <b><i><a target='_blank' href='https://developers.salestim.com/nocode/approval.html'>Team creation approval workflow</a></i></b> from our Tech Hub.",
+					"help": "Messages Actionnables: aide. Voir <b><i><a target='_blank' href='https://developers.salestim.com/nocode/approval.html'>Workflow d'Approbation</a></i></b> sur notre Tech Hub.",
 					"providerMode": {
-						"label": "Enable organization-level provider",
-						"help": "By selecting this option, the approval notification emails will be sent by the service account itself, using its own email address.",
+						"label": "Activer un fournisseur au niveau de l'organisation",
+						"help": "En sélectionnant cette option, l'email de notification sera envoyée par le compte de service même, en utilisant sa propre adresse email.",
 						"providerId": {
 							"input": {
-								"title": "Provider Id (originator)",
-								"placeholder": "Paste provider id"
+								"title": "Id du fournisseur (créateur)",
+								"placeholder": "Coller l'id du fournisseur"
 							}
 						}
 					}
@@ -976,7 +976,7 @@
 				}
 			},
 			"advancedCustomization": {
-				"title": "🎨 Personnalisation"
+				"title": "🎨 Personalisation"
 			},
 			"crm": {
 				"title": "🏆 CRM",
